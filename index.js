@@ -96,7 +96,7 @@ function check() {
                             if (err2) console.log('fs writeFile err: ', err2);
                         });
                     if (ids.length > 0) { //若没有要踢的人则跳过此页
-                        //dispel(ids); //执行踢人ajax
+                        dispel(ids); //执行踢人ajax
                     }
                 }
             });
