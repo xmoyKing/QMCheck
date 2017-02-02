@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1= title
+  - var date = new Date(JSON.parse(record).date);
+  - var arr = JSON.parse(record).dispel;
+  p 查卡时间：#{date.toLocaleString()}
+  table(style="text-align: center; font-size: 1.3em; width: 550px")
+    tr
+      th 昵称
+      th 贡献值
+      th 组龄
+      th 打卡率
+      th #{date.getFullYear()}-#{date.getMonth()+1}-#{date.getDate()-1}
+      th #{date.getFullYear()}-#{date.getMonth()+1}-#{date.getDate()}
+    each val in arr
+      tr
+        td: a(href='https://www.shanbay.com/#{val.link}') #{val.name}
+        td= val.points
+        td= val.days
+        td= val.rate
+        td= val.check0
+        td= val.check1
