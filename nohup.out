@@ -1,0 +1,20 @@
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET /qmcheck [32m200 [0m811.350 ms - 2194[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.134 ms - 111[0m
+[0mGET /qmcheck [36m304 [0m177.035 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.883 ms - -[0m
+[0mGET /qmcheck [36m304 [0m162.688 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.181 ms - -[0m
+[0mGET /qmcheck [36m304 [0m57.636 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.079 ms - -[0m
+[0mGET /qmcheck [36m304 [0m61.691 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.513 ms - -[0m
+[0mGET /qmcheck [36m304 [0m52.922 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.364 ms - -[0m
+[0mGET /qmcheck [32m200 [0m233.565 ms - 1880[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.272 ms - -[0m
+[0mGET /qmcheck [36m304 [0m160.420 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.095 ms - -[0m
