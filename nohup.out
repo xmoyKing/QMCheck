@@ -18,3 +18,31 @@
 [0mGET /stylesheets/style.css [36m304 [0m1.272 ms - -[0m
 [0mGET /qmcheck [36m304 [0m160.420 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m1.095 ms - -[0m
+[0mGET /qmcheck [36m304 [0m61.225 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.722 ms - -[0m
+[0mGET /qmcheck [32m200 [0m60.490 ms - 1234[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.000 ms - -[0m
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET /qmcheck [36m304 [0m696.658 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.680 ms - -[0m
+[0mGET /qmcheck [36m304 [0m190.141 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.160 ms - -[0m
+[0mGET /qmcheck [32m200 [0m155.388 ms - 1234[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.445 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m14.775 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m215.148 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.006 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m24.567 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m184.251 ms - 1253[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.788 ms - -[0m
+[0mGET /qmcheck [32m200 [0m90.367 ms - 1253[0m
+[0mGET / [32m200 [0m9.993 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m10.329 ms - 1045[0m
+[0mGET / [32m200 [0m25.943 ms - 170[0m
+[0mGET / [32m200 [0m8.224 ms - 170[0m
+[0mGET / [32m200 [0m17.696 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m67.835 ms - 1253[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.529 ms - -[0m

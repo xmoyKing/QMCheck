@@ -60,7 +60,7 @@ function check() {
                         continue;
                     } else if (days >= 30 && check0 == '已打卡') {
                         continue;
-                        //} else if (rate >= 96 && check1 == '已打卡') {
+                    } else if (rate >= 96 && check1 == '已打卡') {
                         continue;
                     } else if (days >= 700) { //组龄大于700天，
                         continue;
