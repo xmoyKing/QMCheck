@@ -46,3 +46,17 @@
 [0mGET / [32m200 [0m17.696 ms - 170[0m
 [0mGET /qmcheck [32m200 [0m67.835 ms - 1253[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.529 ms - -[0m
+[0mGET /qmcheck [32m200 [0m105.352 ms - 1138345[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.425 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m36.125 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m221.264 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.906 ms - -[0m
+[0mGET /qmcheck [32m200 [0m123.313 ms - 1138345[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.029 ms - -[0m
+[0mGET /qmcheck [32m200 [0m238.940 ms - 1138345[0m
+[0mGET / [32m200 [0m62.662 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m211.819 ms - 1138345[0m
+[0mGET / [32m200 [0m40.044 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m53.295 ms - 1045[0m
+[0mGET / [32m200 [0m36.264 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m34.318 ms - 1045[0m

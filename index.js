@@ -6,7 +6,7 @@ var path = require('path');
 //var schedule = require('node-schedule');
 ////////////////////////////////////////////////////////////////////////////////
 var cookie = null;
-check(); //当前cookie日期为：2017.1.25
+check(); //当前cookie日期为：2.5; 2017.1.25
 
 function dispel(ids) {
     var data = { //踢除
