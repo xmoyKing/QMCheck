@@ -72,7 +72,7 @@ function check() {
                         ;
                         allInfo['link'] = (member.find('.nickname').attr('href')) //用户首页
                         ;
-                        allInfo['points'] = (member.find('.points').text()) //用户积分
+                        allInfo['points'] = Number(member.find('.points').text()) //用户积分
                         ;
                         allInfo['days'] = (days) //用户组龄
                         ;
@@ -96,7 +96,8 @@ function check() {
                             if (err2) console.log('fs writeFile err: ', err2);
                         });
                     if (ids.length > 0) { //若没有要踢的人则跳过此页
-                        dispel(ids); //执行踢人ajax
+						return ids;	                        
+//dispel(ids); //执行踢人ajax
                     }
                 }
             });
