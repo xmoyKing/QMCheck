@@ -9,6 +9,17 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 // QMCheck page
 var qmcheck = require('./routes/qmcheck');
+var qm = require('./qm');
+var schedule = require('node-schedule');
+////////////////////////////////////////////////////////////////////////////////
+//定时器
+var j = schedule.scheduleJob('55 23 * * *', function() {
+    qm.check('record', function(json) {
+        qm.disple(json.ids);
+    });
+});
+
+////////////////////////////////////////////////////////////////////////////////
 
 var app = express();
 
