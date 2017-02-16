@@ -95,3 +95,610 @@
 [0mGET /stylesheets/style.css [36m304 [0m0.378 ms - -[0m
 [0mGET /qmcheck [31m500 [0m41.071 ms - 1834[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.385 ms - -[0m
+[0mGET / [32m200 [0m10.394 ms - 170[0m
+[0mGET /user [33m404 [0m11.124 ms - 1045[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.414 ms - -[0m
+[0mGET /users [32m200 [0m0.704 ms - 23[0m
+[0mGET /users [36m304 [0m1.378 ms - -[0m
+[0mGET / [32m200 [0m14.846 ms - 170[0m
+[0mGET /qmcheck [31m500 [0m44.587 ms - 1906[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.258 ms - 773[0m
+[0mGET /qmcheck [31m500 [0m42.271 ms - 1906[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.399 ms - -[0m
+[0mGET / [32m200 [0m9.157 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mGET / [36m304 [0m7.143 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.487 ms - -[0m
+[0mGET / [36m304 [0m13.803 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.425 ms - -[0m
+Terminated
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET / [36m304 [0m368.458 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.406 ms - -[0m
+begin : Mon Feb 06 2017 16:26:38 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1420.295 ms - 4556[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.378 ms - -[0m
+[0mGET /qmcheck [32m200 [0m184.742 ms - 3416[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.342 ms - -[0m
+[0mGET /undefined [33m404 [0m17.130 ms - 1045[0m
+[0mGET /stylesheets/style.css [36m304 [0m25.554 ms - -[0m
+[0mGET /qmcheck [32m200 [0m229.269 ms - 3416[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.429 ms - 773[0m
+[0mGET /undefined [33m404 [0m17.625 ms - 1045[0m
+[0mGET /user [33m404 [0m15.187 ms - 1045[0m
+begin : Mon Feb 06 2017 16:57:10 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1166.548 ms - 3700[0m
+[0mGET /qmcheck [32m200 [0m158.231 ms - 3416[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.291 ms - 773[0m
+[0mGET /undefined [33m404 [0m21.799 ms - 1045[0m
+[0mGET /favicon.ico [33m404 [0m20.528 ms - 1045[0m
+[0mGET /favicon.ico [33m404 [0m19.556 ms - 1045[0m
+[0mGET / [32m200 [0m37.547 ms - 170[0m
+[0mGET /qmcheck [36m304 [0m132.286 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.231 ms - -[0m
+[0mGET /undefined [33m404 [0m10.526 ms - 1045[0m
+[0mGET / [32m200 [0m20.384 ms - 170[0m
+[0mGET / [32m200 [0m11.828 ms - 170[0m
+[0mGET /undefined [33m404 [0m29.862 ms - 1045[0m
+[0mGET / [32m200 [0m15.071 ms - 170[0m
+[0mGET / [32m200 [0m8.868 ms - 170[0m
+begin : Mon Feb 06 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m53.266 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.820 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m182.309 ms - 1214[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.949 ms - -[0m
+[0mGET /qmcheck [32m200 [0m198.757 ms - 1214[0m
+[0mGET /qmcheck [36m304 [0m71.794 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.861 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m21.292 ms - 1045[0m
+[0mGET / [32m200 [0m13.637 ms - 170[0m
+[0mGET /undefined [33m404 [0m26.103 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.658 ms - 1045[0m
+[0mGET / [32m200 [0m10.732 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m14.220 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m53.411 ms - 1214[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.287 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m33.864 ms - 1214[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.048 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m28.584 ms - 1214[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.072 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m35.349 ms - 1214[0m
+[0mGET /qmcheck [32m200 [0m35.412 ms - 1214[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.373 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m6.553 ms - 1045[0m
+[0mGET / [32m200 [0m68.097 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.067 ms - -[0m
+[0mGET /qmcheck [32m200 [0m33.243 ms - 1214[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.587 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m12.462 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m24.157 ms - 1214[0m
+[0mGET /qmcheck [32m200 [0m47.819 ms - 1214[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.876 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m26.131 ms - 1214[0m
+[0mGET / [32m200 [0m7.411 ms - 170[0m
+[0mGET / [32m200 [0m6.782 ms - 170[0m
+begin : Tue Feb 07 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m10.025 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m165.942 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.731 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m75.461 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.019 ms - -[0m
+[0mGET /qmcheck [32m200 [0m128.164 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.169 ms - 773[0m
+[0mGET / [32m200 [0m7.224 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m68.213 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.597 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m42.527 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.551 ms - -[0m
+[0mGET /qmcheck [32m200 [0m45.445 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.882 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m32.145 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.919 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m13.036 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m35.524 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.919 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m39.470 ms - 384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.416 ms - -[0m
+begin : Wed Feb 08 2017 11:36:17 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m973.454 ms - 5453[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.065 ms - -[0m
+[0mGET /qmcheck [32m200 [0m39.496 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.810 ms - 773[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.907 ms - -[0m
+[0mGET /qmcheck [32m200 [0m97.436 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m67.176 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m91.601 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m71.043 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m64.027 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.266 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m20.540 ms - 1045[0m
+begin : Wed Feb 08 2017 23:07:49 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m939.854 ms - 2646[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.807 ms - -[0m
+begin : Wed Feb 08 2017 23:07:58 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m992.305 ms - 2646[0m
+begin : Wed Feb 08 2017 23:08:27 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1053.931 ms - 2646[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.815 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m11.246 ms - 1045[0m
+[0mGET / [32m200 [0m26.597 ms - 170[0m
+[0mGET / [32m200 [0m12.807 ms - 170[0m
+begin : Wed Feb 08 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m84.126 ms - 961[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.056 ms - -[0m
+begin : Wed Feb 08 2017 23:56:04 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m817.646 ms - 390[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.744 ms - -[0m
+[0mGET / [32m200 [0m19.310 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m35.740 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m64.018 ms - 961[0m
+begin : Thu Feb 09 2017 02:53:26 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1075.768 ms - 9099[0m
+begin : Thu Feb 09 2017 02:53:35 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1036.502 ms - 9099[0m
+[0mGET / [32m200 [0m36.417 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m52.271 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.075 ms - 773[0m
+[0mGET / [32m200 [0m10.639 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m70.498 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.185 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m18.546 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m55.882 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.943 ms - -[0m
+[0mGET /qmcheck [32m200 [0m46.225 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.033 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m43.865 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.837 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m42.401 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.859 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m72.312 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.220 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m8.719 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m40.886 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.654 ms - -[0m
+[0mGET /qmcheck [32m200 [0m46.595 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.733 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m51.197 ms - 961[0m
+[0mGET / [32m200 [0m18.099 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m23.539 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m45.044 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.732 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m82.984 ms - 961[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.958 ms - 773[0m
+[0mGET / [32m200 [0m10.962 ms - 170[0m
+[0mGET / [32m200 [0m6.961 ms - 170[0m
+begin : Thu Feb 09 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m70.285 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.142 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m9.217 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m60.469 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m54.224 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.405 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m13.488 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m79.768 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.944 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m9.887 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m67.278 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.062 ms - -[0m
+[0mGET /qmcheck [36m304 [0m55.968 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.508 ms - -[0m
+[0mGET /qmcheck [36m304 [0m47.655 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.491 ms - -[0m
+[0mGET /qmcheck [36m304 [0m51.406 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.485 ms - -[0m
+[0mGET / [32m200 [0m15.835 ms - 170[0m
+[0mGET / [32m200 [0m11.840 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m57.317 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.827 ms - 773[0m
+[0mGET / [32m200 [0m8.956 ms - 170[0m
+[0mGET / [32m200 [0m9.180 ms - 170[0m
+[0mGET / [32m200 [0m8.957 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m51.779 ms - 384[0m
+[0mGET / [32m200 [0m33.329 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m55.140 ms - 384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.447 ms - -[0m
+[0mGET /qmcheck [32m200 [0m47.964 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.779 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m46.589 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.733 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m37.005 ms - 384[0m
+[0mGET / [32m200 [0m15.105 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m12.566 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m39.842 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.746 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m42.916 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.672 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m8.513 ms - 1045[0m
+[0mGET /favicon.ico [33m404 [0m21.784 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m40.292 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.473 ms - -[0m
+[0mGET /qmcheck [36m304 [0m39.668 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.449 ms - -[0m
+[0mGET /qmcheck [36m304 [0m50.367 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.483 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m11.453 ms - 1045[0m
+begin : Fri Feb 10 2017 23:12:29 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1141.787 ms - 4328[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.077 ms - -[0m
+[0mGET / [32m200 [0m33.741 ms - 170[0m
+[0mGET / [32m200 [0m10.864 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m64.242 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.936 ms - 773[0m
+begin : Fri Feb 10 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m43.073 ms - 2637[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.232 ms - 773[0m
+begin : Fri Feb 10 2017 23:55:48 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1023.726 ms - 392[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.787 ms - -[0m
+[0mGET /qmcheck [36m304 [0m64.154 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.512 ms - -[0m
+begin : Fri Feb 10 2017 23:55:59 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m888.511 ms - 670[0m
+[0mGET /qmcheck [32m200 [0m60.572 ms - 2637[0m
+begin : Sat Feb 11 2017 02:13:40 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1167.332 ms - 7681[0m
+begin : Sat Feb 11 2017 02:13:54 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1393.510 ms - 7681[0m
+[0mGET /qmcheck [32m200 [0m62.718 ms - 2637[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.101 ms - -[0m
+[0mGET /qmcheck [36m304 [0m69.782 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.548 ms - -[0m
+[0mGET /qmcheck [36m304 [0m47.535 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.451 ms - -[0m
+[0mGET / [32m200 [0m15.499 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m50.516 ms - 2637[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.489 ms - -[0m
+[0mGET /qmcheck [32m200 [0m51.575 ms - 2637[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.459 ms - 773[0m
+[0mGET / [32m200 [0m8.708 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m16.046 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m67.065 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.506 ms - -[0m
+begin : Sat Feb 11 2017 23:04:05 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1123.439 ms - 2345[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.037 ms - -[0m
+[0mGET / [32m200 [0m25.568 ms - 170[0m
+[0mGET / [32m200 [0m15.173 ms - 170[0m
+begin : Sat Feb 11 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m14.857 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m39.570 ms - 1202[0m
+[0mGET / [32m200 [0m10.823 ms - 170[0m
+[0mGET / [32m200 [0m7.932 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.767 ms - -[0m
+[0mGET / [32m200 [0m9.453 ms - 170[0m
+[0mGET / [32m200 [0m18.922 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m13.142 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m46.938 ms - 1202[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.513 ms - -[0m
+[0mGET /qmcheck [36m304 [0m51.806 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.533 ms - -[0m
+begin : Sun Feb 12 2017 23:06:51 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1152.024 ms - 2937[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.288 ms - 773[0m
+begin : Sun Feb 12 2017 23:07:00 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1185.177 ms - 2937[0m
+[0mGET /qmcheck [32m200 [0m77.717 ms - 1202[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.207 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m15.761 ms - 1045[0m
+[0mGET / [32m200 [0m15.647 ms - 170[0m
+[0mGET / [32m200 [0m11.260 ms - 170[0m
+begin : Sun Feb 12 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m60.068 ms - 1811[0m
+begin : Mon Feb 13 2017 04:09:23 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1026.317 ms - 8234[0m
+begin : Mon Feb 13 2017 04:09:33 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1115.112 ms - 8234[0m
+[0mGET /qmcheck [32m200 [0m61.295 ms - 1811[0m
+[0mGET /qmcheck [32m200 [0m45.902 ms - 1811[0m
+[0mGET /qmcheck [32m200 [0m78.582 ms - 1811[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.398 ms - -[0m
+[0mGET / [32m200 [0m14.468 ms - 170[0m
+[0mGET /robots.txt [33m404 [0m77.406 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m51.640 ms - 1811[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.672 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m52.568 ms - 1811[0m
+[0mGET /qmcheck [32m200 [0m53.176 ms - 1811[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.256 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m86.333 ms - 1811[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.966 ms - 773[0m
+begin : Mon Feb 13 2017 23:27:33 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1235.303 ms - 3749[0m
+begin : Mon Feb 13 2017 23:27:40 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1218.876 ms - 3749[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.117 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m44.739 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.666 ms - -[0m
+[0mGET /qmcheck [32m200 [0m52.386 ms - 1811[0m
+[0mGET / [32m200 [0m20.769 ms - 170[0m
+[0mGET / [32m200 [0m12.594 ms - 170[0m
+begin : Mon Feb 13 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m21.160 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m43.303 ms - 387[0m
+[0mGET /qmcheck [32m200 [0m86.370 ms - 387[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.932 ms - 773[0m
+[0mGET / [32m200 [0m10.235 ms - 170[0m
+[0mGET / [32m200 [0m9.407 ms - 170[0m
+[0mGET / [32m200 [0m7.408 ms - 170[0m
+[0mGET / [32m200 [0m16.214 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m17.573 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m57.868 ms - 387[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.917 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m59.022 ms - 387[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.777 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m16.147 ms - 1045[0m
+begin : Tue Feb 14 2017 23:44:18 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1676.094 ms - 3746[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.193 ms - -[0m
+[0mGET /qmcheck [32m200 [0m47.078 ms - 387[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.745 ms - -[0m
+begin : Tue Feb 14 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m91.682 ms - 3455[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.033 ms - -[0m
+[0mGET /qmcheck [32m200 [0m54.929 ms - 3455[0m
+[0mGET /favicon.ico [33m404 [0m12.318 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m61.052 ms - 3455[0m
+begin : Wed Feb 15 2017 02:20:11 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1275.008 ms - 5919[0m
+[0mGET / [32m200 [0m11.942 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m55.468 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.401 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m67.651 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.962 ms - 773[0m
+[0mGET / [32m200 [0m11.658 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m59.348 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.686 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m83.711 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.762 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m11.210 ms - 1045[0m
+[0mGET / [32m200 [0m12.193 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.666 ms - -[0m
+[0mGET / [36m304 [0m10.949 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.438 ms - -[0m
+[0mGET /qmcheck [36m304 [0m67.100 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.502 ms - -[0m
+[0mGET /qmcheck [36m304 [0m54.838 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.511 ms - -[0m
+[0mGET /index.js.map [33m404 [0m125.193 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m54.178 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.550 ms - -[0m
+[0mGET /index.js.map [33m404 [0m15.249 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m64.638 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.538 ms - -[0m
+[0mGET /index.js.map [33m404 [0m7.926 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m42.730 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.641 ms - -[0m
+[0mGET /index.js.map [33m404 [0m11.998 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m46.198 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.730 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m54.797 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.805 ms - 773[0m
+[0mGET / [32m200 [0m26.233 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m16.117 ms - 1045[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m13.181 ms - 1045[0m
+[0mGET /index.js.map [33m404 [0m8.218 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m51.402 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.830 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m18.874 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m43.603 ms - 3455[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.743 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m15.341 ms - 1045[0m
+[0mGET /qmcheck [36m304 [0m40.673 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.556 ms - -[0m
+[0mGET /index.js.map [33m404 [0m12.046 ms - 1045[0m
+begin : Wed Feb 15 2017 23:19:17 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m1273.667 ms - 1139793[0m
+begin : Wed Feb 15 2017 23:19:26 GMT+0800 (CST)
+begin : Wed Feb 15 2017 23:19:26 GMT+0800 (CST)
+/home/ubuntu/OY/QMCheck/qm.js:46
+                var $ = cheerio.load(res.text);
+                                        ^
+
+TypeError: Cannot read property 'text' of undefined
+    at /home/ubuntu/OY/QMCheck/qm.js:46:41
+    at Request.callback (/home/ubuntu/OY/QMCheck/node_modules/superagent/lib/node/index.js:672:3)
+    at ClientRequest.<anonymous> (/home/ubuntu/OY/QMCheck/node_modules/superagent/lib/node/index.js:600:10)
+    at ClientRequest.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at TLSSocket.socketErrorListener (_http_client.js:310:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+begin : Wed Feb 15 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m2067.806 ms - 1139607[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.479 ms - -[0m
+[0mGET /undefined [33m404 [0m27.616 ms - 1045[0m
+[0mGET /undefined [33m404 [0m61.622 ms - 1045[0m
+[0mGET /undefined [33m404 [0m20.027 ms - 1045[0m
+[0mGET /undefined [33m404 [0m17.943 ms - 1045[0m
+[0mGET /undefined [33m404 [0m18.355 ms - 1045[0m
+[0mGET /undefined [33m404 [0m12.082 ms - 1045[0m
+[0mGET /undefined [33m404 [0m11.147 ms - 1045[0m
+[0mGET /undefined [33m404 [0m36.119 ms - 1045[0m
+[0mGET /undefined [33m404 [0m44.363 ms - 1045[0m
+[0mGET /undefined [33m404 [0m13.336 ms - 1045[0m
+[0mGET /undefined [33m404 [0m15.941 ms - 1045[0m
+[0mGET /undefined [33m404 [0m11.892 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.450 ms - 1045[0m
+[0mGET /undefined [33m404 [0m17.311 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.232 ms - 1045[0m
+[0mGET /undefined [33m404 [0m16.336 ms - 1045[0m
+[0mGET /undefined [33m404 [0m8.525 ms - 1045[0m
+[0mGET /undefined [33m404 [0m13.679 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.056 ms - 1045[0m
+[0mGET /undefined [33m404 [0m5.475 ms - 1045[0m
+[0mGET /undefined [33m404 [0m5.452 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.001 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.761 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.554 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.143 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.177 ms - 1045[0m
+[0mGET /undefined [33m404 [0m5.573 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.454 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.164 ms - 1045[0m
+[0mGET /undefined [33m404 [0m13.097 ms - 1045[0m
+[0mGET /undefined [33m404 [0m5.857 ms - 1045[0m
+[0mGET /undefined [33m404 [0m5.907 ms - 1045[0m
+[0mGET /undefined [33m404 [0m4.984 ms - 1045[0m
+[0mGET /undefined [33m404 [0m7.492 ms - 1045[0m
+[0mGET /undefined [33m404 [0m10.939 ms - 1045[0m
+[0mGET /undefined [33m404 [0m4.623 ms - 1045[0m
+[0mGET /undefined [33m404 [0m5.966 ms - 1045[0m
+[0mGET /undefined [33m404 [0m10.716 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.413 ms - 1045[0m
+[0mGET /undefined [33m404 [0m8.321 ms - 1045[0m
+[0mGET /undefined [33m404 [0m16.358 ms - 1045[0m
+[0mGET /undefined [33m404 [0m6.766 ms - 1045[0m
+[0mGET /favicon.ico [33m404 [0m10.502 ms - 1045[0m
+[0mGET / [32m200 [0m7.435 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.837 ms - -[0m
+[0mGET /cookie [32m200 [0m108.688 ms - 334[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.121 ms - -[0m
+{ cook: '_ga=GA1.2.579368355.1483976099; sessionid=".eJyrVopPLC3JiC8tTi2KT0pMzk7NS1GyUkrOz83Nz9MDS0FFi_WcE5MzUn3zU1JznKAKdZB1ZwI1WpgZW5iaWNYCAJTyHy8:1cbh7B:qXmNhmObCWRZeopndq4OMODjuy4"; locale=zh-cn; csrftoken=E6W9kuW6LZQgj2lMQJnbuaMIsnl6hdvK; auth_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Inhtb3lraW5nIiwiZGV2aWNlIjowLCJpc19zdGFmZiI6ZmFsc2UsImlkIjo4NjM4NTQ5LCJleHAiOjE0ODgwMzUwOTh9.zrCCQ3gfJIUCA-1lmyQ-qdZGC7n6ERwOSmoEVsr5MmI; __utma=183787513.579368355.1483976099.1487087006.1487170979.19; __utmb=183787513.7.10.1487170979; __utmc=183787513; __utmz=183787513.1483976099.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); userid=8638549' }
+[0mPOST /cookie/upload [32m200 [0m111.135 ms - 6[0m
+[0mGET /qmcheck [31m500 [0m78.599 ms - 1098[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.123 ms - -[0m
+[0mGET /qmcheck [32m200 [0m150.611 ms - 672[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.606 ms - -[0m
+[0mGET /qmcheck [32m200 [0m311.103 ms - 672[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.485 ms - -[0m
+[0mGET /cookie [32m200 [0m28.353 ms - 334[0m
+[0mGET /undefined [33m404 [0m10.688 ms - 1045[0m
+[0mGET /undefined [33m404 [0m9.300 ms - 1045[0m
+[0mGET /cookie/upload [33m404 [0m10.684 ms - 1045[0m
+[0mGET / [32m200 [0m13.941 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m64.009 ms - 672[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.468 ms - -[0m
+[0mGET /cookie/upload [33m404 [0m6.405 ms - 1045[0m
+[0mGET /qmcheck [32m200 [0m35.020 ms - 672[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.599 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.648 ms - -[0m
+[0mGET /qmcheck [36m304 [0m41.781 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.575 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.873 ms - -[0m
+[0mGET / [32m200 [0m10.858 ms - 170[0m
+[0mGET / [32m200 [0m5.455 ms - 170[0m
+Terminated
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET /qmcheck [36m304 [0m2209.533 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.645 ms - -[0m
+[0mGET /cookie [32m200 [0m35.108 ms - 334[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.487 ms - -[0m
+begin : Thu Feb 16 2017 19:15:08 GMT+0800 (CST)
+end: check
+[0mGET /users [32m200 [0m2050.620 ms - 5900[0m
+(node:26706) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0mGET /stylesheets/style.css [36m304 [0m3.526 ms - -[0m

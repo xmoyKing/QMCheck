@@ -3,9 +3,10 @@ var cheerio = require('cheerio');
 var async = require('async');
 var fs = require('fs');
 var path = require('path');
+var mongoose = require('mongoose');
+var Record = require('./db');
 ////////////////////////////////////////////////////////////////////////////////
 var cookie = null;
-//check(); //当前cookie日期为：2.5; 2017.1.25
 
 function dispel(ids) {
     var data = { //踢除
@@ -31,7 +32,9 @@ function check(recordFile, cbfn) {
     var date = Date();
     console.log('begin : ' + date);
     cookie = fs.readFileSync(path.join(__dirname, 'cookie.txt'), 'utf-8');
-    //if (cookie === null) return false;
+    mongoose.connect('mongodb://localhost/test'); //test是数据库名称
+    const db = mongoose.connection; // 实例化连接对象
+    db.on('error', console.error.bind(console, '连接错误：'));
 
     var record = { 'date': date, 'dispel': [] };
     var flag = 0;
@@ -91,7 +94,13 @@ function check(recordFile, cbfn) {
                     });
                     fs.writeFile(path.join(__dirname, recordFile + '.json'), JSON.stringify(rst), function(err2) {
                         if (err2) console.log('fs writeFile err: ', err2);
-                        if (cbfn) cbfn(rst); //执行回掉函数
+						if (cbfn) { //若函数存在则说明需要执行dispel
+                            Record.create(rst, (err) => { //此时需要将数据添加到数据库中
+                                db.close(); //关闭数据库连接
+                                if (err) return console.log(err);
+                            });
+                            cbfn(rst); //执行回掉函数
+                        }
                     });
                     console.log('end: check');
                 }
