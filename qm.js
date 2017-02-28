@@ -67,7 +67,7 @@ function check(recordFile, cbfn) {
                         continue;
                     } else if (rate >= 96 && check1 === '已打卡') {
                         continue;
-                    } else if (role === 3) { //3为小助手，2为组员
+                    } else if (role === 1 || role === 3) { //3为小助手，2为组员
                         continue;
                     } else { //若打卡率低于97%,且组龄小与30天
                         ids.push(dataid); //将id计入ids
