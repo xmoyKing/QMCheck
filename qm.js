@@ -57,7 +57,8 @@ function check(recordFile, cbfn) {
                     var name = member.attr('data-name');
                     var dataid = member.attr('data-id');
                     var role = Number(member.attr('role'));
-                    //if(dateid === '') continue;
+                    //若没有找到相应的dataid则表示没能正常登录,此时直接返回
+                    if (dataid == '' || dataid == undefined || dataid == null) return;
 
                     if (rate >= 97) { //打卡率大于97则表示当前页的
                         continue;
@@ -94,11 +95,12 @@ function check(recordFile, cbfn) {
                     });
                     fs.writeFile(path.join(__dirname, recordFile + '.json'), JSON.stringify(rst), function(err2) {
                         if (err2) console.log('fs writeFile err: ', err2);
-						if (cbfn) { //若函数存在则说明需要执行dispel
+                        if (cbfn && (new Date()).getHours() === 23 && (new Date()).getMinutes() >= 55) { //若函数存在则说明需要执行dispel
                             Record.create(rst, (err) => { //此时需要将数据添加到数据库中
                                 db.close(); //关闭数据库连接
                                 if (err) return console.log(err);
                             });
+
                             cbfn(rst); //执行回掉函数
                         }
                     });
