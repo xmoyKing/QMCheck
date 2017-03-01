@@ -32,10 +32,10 @@ function check(recordFile, cbfn) {
     var date = Date();
     console.log('begin : ' + date);
     cookie = fs.readFileSync(path.join(__dirname, 'cookie.txt'), 'utf-8');
-    mongoose.connect('mongodb://localhost/test'); //test是数据库名称
+/*    mongoose.connect('mongodb://localhost/test'); //test是数据库名称
     const db = mongoose.connection; // 实例化连接对象
     db.on('error', console.error.bind(console, '连接错误：'));
-
+*/
     var record = { 'date': date, 'dispel': [] };
     var flag = 0;
     var ids = [];
@@ -96,11 +96,11 @@ function check(recordFile, cbfn) {
                     fs.writeFile(path.join(__dirname, recordFile + '.json'), JSON.stringify(rst), function(err2) {
                         if (err2) console.log('fs writeFile err: ', err2);
                         if (cbfn && (new Date()).getHours() === 23 && (new Date()).getMinutes() >= 55) { //若函数存在则说明需要执行dispel
-                            Record.create(rst, (err) => { //此时需要将数据添加到数据库中
+/*                            Record.create(rst, (err) => { //此时需要将数据添加到数据库中
                                 db.close(); //关闭数据库连接
                                 if (err) return console.log(err);
                             });
-
+*/
                             cbfn(rst); //执行回掉函数
                         }
                     });

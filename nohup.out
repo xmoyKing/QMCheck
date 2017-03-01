@@ -8148,3 +8148,101 @@ end: check
 [0mGET /qmcheck [32m200 [0m27.990 ms - 1523[0m
 [0mGET /qmcheck [32m200 [0m32.167 ms - 1523[0m
 [0mGET /stylesheets/style.css [32m200 [0m0.770 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m24.547 ms - 1523[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.738 ms - 773[0m
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET /qmcheck [32m200 [0m555.758 ms - 1523[0m
+[0mGET /qmcheck [32m200 [0m67.541 ms - 1523[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.846 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m15.739 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m72.895 ms - 1523[0m
+[0mGET /qmcheck [32m200 [0m193.798 ms - 1523[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.959 ms - 773[0m
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+Port 3000 is already in use
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+Port 3000 is already in use
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET /qmcheck [32m200 [0m616.680 ms - 1523[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.774 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m28.897 ms - 1610[0m
+begin : Wed Mar 01 2017 13:36:05 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Wed Mar 01 2017 13:36:06 GMT+0800 (CST)
+end: check
+end: check
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Wed Mar 01 2017 13:38:07 GMT+0800 (CST)
+end: check
+begin : Wed Mar 01 2017 13:38:16 GMT+0800 (CST)
+end: check
+[0mGET /users [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m64.428 ms - 170[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.914 ms - -[0m
+[0mGET / [32m200 [0m70.555 ms - 170[0m
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Wed Mar 01 2017 13:42:17 GMT+0800 (CST)
+end: check
+[0mGET /users [0m- [0m- ms - -[0m
