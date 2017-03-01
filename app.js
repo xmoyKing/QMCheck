@@ -16,7 +16,10 @@ var schedule = require('node-schedule');
 //定时器
 var j = schedule.scheduleJob('55 23 * * *', function() {
     qm.check('record', function(json) {
-        qm.disple(json.ids);
+        let crtDate = new Date();
+        if (crtDate.getHours() === 23 && crtDate.getMinutes() >= 55)
+            qm.disple(json.ids);
+        else console.log('时间不在23:55~59之内 : ' + crtDate);
     });
 });
 
