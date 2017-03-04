@@ -1,2 +1,6 @@
 
 {"ids":[],"record":{"date":"Wed Mar 01 2017 23:55:00 GMT+0800 (China Standard Time)","dispel":[]}}
+
+{"ids":["7081585","7006030","5536714","1955536"],"record":{"date":"Thu Mar 02 2017 23:55:00 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/b58b4d0b3f2a9801aa472b1d4ce5e633.png?imageView/1/w/30/h/30/","dataid":"7081585","name":"A","link":"/checkin/user/25439419/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/744341fdc708cb41557511c55f5d9b5c?imageView/1/w/30/h/30/","dataid":"7006030","name":"墨子同袍","link":"/checkin/user/23451919/","points":80,"days":11,"rate":90.91,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3f80489275f7a7bd124b42233f003563?imageView/1/w/30/h/30/","dataid":"5536714","name":"Louis_hy","link":"/checkin/user/3477577/","points":3768,"days":204,"rate":96.08,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3373ad132d848e9d3cfa7bd4af059cb3?imageView/1/w/30/h/30/","dataid":"1955536","name":"karrywang","link":"/checkin/user/9129484/","points":12306,"days":549,"rate":96.9,"check0":"未打卡","check1":"未打卡"}]}}
+
+{"ids":[],"record":{"date":"Fri Mar 03 2017 23:55:00 GMT+0800 (CST)","dispel":[]}}

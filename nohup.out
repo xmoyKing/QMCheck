@@ -8246,3 +8246,263 @@ end: check
 begin : Wed Mar 01 2017 13:42:17 GMT+0800 (CST)
 end: check
 [0mGET /users [0m- [0m- ms - -[0m
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+[0mGET /qmcheck [32m200 [0m626.089 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.085 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m30.297 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m194.612 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.483 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m14.791 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m154.858 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m93.315 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m54.681 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m84.864 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m33.594 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m38.507 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.216 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m26.202 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.700 ms - -[0m
+[0mGET /qmcheck [36m304 [0m23.550 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.437 ms - -[0m
+[0mGET /qmcheck [32m200 [0m25.957 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.117 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m26.184 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.115 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m7.141 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m20.124 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.652 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m30.927 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.364 ms - -[0m
+[0mGET / [32m200 [0m4.922 ms - 170[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m9.478 ms - 1610[0m
+
+> qmcheck@0.0.0 start /home/ubuntu/OY/QMCheck
+> node ./bin/www
+
+Port 3000 is already in use
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+[0mGET /qmcheck [32m200 [0m25.535 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.659 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m7.643 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m25.531 ms - 384[0m
+begin : Thu Mar 02 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m45.009 ms - 1469[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.651 ms - -[0m
+[0mGET /qmcheck [32m200 [0m154.272 ms - 1469[0m
+[0mGET /qmcheck [32m200 [0m175.539 ms - 1469[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.599 ms - -[0m
+[0mGET /qmcheck [36m304 [0m60.177 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.522 ms - -[0m
+[0mGET / [36m304 [0m19.485 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.401 ms - -[0m
+[0mGET / [36m304 [0m5.418 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.310 ms - -[0m
+[0mGET / [36m304 [0m26.132 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.335 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.383 ms - -[0m
+[0mGET / [32m200 [0m8.502 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.171 ms - 773[0m
+[0mGET / [32m200 [0m10.960 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.626 ms - 773[0m
+[0mGET / [32m200 [0m13.447 ms - 170[0m
+[0mGET / [32m200 [0m5.692 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m43.866 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.880 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m8.801 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m28.522 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.576 ms - 773[0m
+[0mGET /apple-touch-icon-120x120-precomposed.png [33m404 [0m9.789 ms - 1610[0m
+[0mGET /apple-touch-icon-120x120.png [33m404 [0m6.514 ms - 1610[0m
+[0mGET /apple-touch-icon.png [33m404 [0m8.290 ms - 1610[0m
+[0mGET /apple-touch-icon.png [33m404 [0m6.532 ms - 1610[0m
+[0mGET / [32m200 [0m5.109 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m29.625 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.547 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m34.203 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.981 ms - 773[0m
+[0mGET / [32m200 [0m4.421 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m28.330 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.407 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m7.459 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m23.163 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.529 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m32.972 ms - 1469[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.615 ms - 773[0m
+begin : Fri Mar 03 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m48.335 ms - 384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.583 ms - -[0m
+begin : Fri Mar 03 2017 23:57:46 GMT+0800 (CST)
+end: check
+{"ids":["7081561","7063819","7019863","6856672"],"record":{"date":"Fri Mar 03 2017 23:57:46 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/11464822abd3d4eaaa66a7e1f60d69ed.png?imageView/1/w/30/h/30/","dataid":"7081561","name":"和服袖Aggie","link":"/checkin/user/67220902/","points":16,"days":3,"rate":66.67,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8770377e98553cddf215c5fce000aca7.png?imageView/1/w/30/h/30/","dataid":"7063819","name":"待","link":"/checkin/user/69440896/","points":32,"days":5,"rate":80,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d651eda06cfc6af5553d94c244e3a6e7.png?imageView/1/w/30/h/30/","dataid":"7019863","name":"echo","link":"/checkin/user/21382717/","points":82,"days":10,"rate":90,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f633e1714309d7407257118735152d6f?imageView/1/w/30/h/30/","dataid":"6856672","name":"infinities","link":"/checkin/user/5424610/","points":328,"days":43,"rate":95.35,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m668.703 ms - 1501[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.471 ms - -[0m
+[0mGET /qmcheck [36m304 [0m31.803 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.600 ms - -[0m
+begin : Fri Mar 03 2017 23:58:04 GMT+0800 (CST)
+end: check
+{"ids":["7081561","7063819","7019863","6856672"],"record":{"date":"Fri Mar 03 2017 23:58:04 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/11464822abd3d4eaaa66a7e1f60d69ed.png?imageView/1/w/30/h/30/","dataid":"7081561","name":"和服袖Aggie","link":"/checkin/user/67220902/","points":16,"days":3,"rate":66.67,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8770377e98553cddf215c5fce000aca7.png?imageView/1/w/30/h/30/","dataid":"7063819","name":"待","link":"/checkin/user/69440896/","points":32,"days":5,"rate":80,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d651eda06cfc6af5553d94c244e3a6e7.png?imageView/1/w/30/h/30/","dataid":"7019863","name":"echo","link":"/checkin/user/21382717/","points":82,"days":10,"rate":90,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f633e1714309d7407257118735152d6f?imageView/1/w/30/h/30/","dataid":"6856672","name":"infinities","link":"/checkin/user/5424610/","points":328,"days":43,"rate":95.35,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1166.173 ms - 1501[0m
+[0mGET /qmcheck [36m304 [0m89.045 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.116 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m12.159 ms - 1610[0m
+begin : Fri Mar 03 2017 23:58:46 GMT+0800 (CST)
+end: check
+{"ids":["7081561","7063819","7019863","6856672"],"record":{"date":"Fri Mar 03 2017 23:58:46 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/11464822abd3d4eaaa66a7e1f60d69ed.png?imageView/1/w/30/h/30/","dataid":"7081561","name":"和服袖Aggie","link":"/checkin/user/67220902/","points":16,"days":3,"rate":66.67,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8770377e98553cddf215c5fce000aca7.png?imageView/1/w/30/h/30/","dataid":"7063819","name":"待","link":"/checkin/user/69440896/","points":32,"days":5,"rate":80,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d651eda06cfc6af5553d94c244e3a6e7.png?imageView/1/w/30/h/30/","dataid":"7019863","name":"echo","link":"/checkin/user/21382717/","points":82,"days":10,"rate":90,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f633e1714309d7407257118735152d6f?imageView/1/w/30/h/30/","dataid":"6856672","name":"infinities","link":"/checkin/user/5424610/","points":328,"days":43,"rate":95.35,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m995.297 ms - 1501[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.667 ms - -[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m73.573 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m50.683 ms - 1610[0m
+[0mGET /misc/states.js [33m404 [0m45.271 ms - 1610[0m
+[0mGET /static/js/md5.js [33m404 [0m19.716 ms - 1610[0m
+[0mGET /include/js/md5.js [33m404 [0m14.452 ms - 1610[0m
+[0mGET /include/js/common.js [33m404 [0m9.431 ms - 1610[0m
+[0mGET /include/js/ajax.js [33m404 [0m11.808 ms - 1610[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m12.543 ms - 1610[0m
+[0mGET /js/wind_editor.js [33m404 [0m8.576 ms - 1610[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m10.059 ms - 1610[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m14.446 ms - 1610[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m12.740 ms - 1610[0m
+[0mGET /template/default/style.css [33m404 [0m7.204 ms - 1610[0m
+[0mGET /static/js/reset.js [33m404 [0m17.394 ms - 1610[0m
+[0mGET /images/js/common.js [33m404 [0m16.462 ms - 1610[0m
+[0mGET /templets/style/dede.css [33m404 [0m9.688 ms - 1610[0m
+[0mGET /include/dedeajax2.js [33m404 [0m8.741 ms - 1610[0m
+[0mGET /images/default/inc.js [33m404 [0m15.571 ms - 1610[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m10.999 ms - 1610[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m4.502 ms - 1610[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m6.714 ms - 1610[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m5.755 ms - 1610[0m
+[0mGET /media/system/js/tab.js [33m404 [0m9.274 ms - 1610[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m7.323 ms - 1610[0m
+[0mGET /lang/zh/front.js [33m404 [0m5.413 ms - 1610[0m
+[0mGET /style/default/content.css [33m404 [0m5.563 ms - 1610[0m
+[0mGET /lang/zh/edit.js [33m404 [0m4.939 ms - 1610[0m
+[0mGET /rockmongo/ [33m404 [0m5.789 ms - 1610[0m
+[0mGET /server-status [33m404 [0m8.456 ms - 1610[0m
+[0mGET /ueditor.all.js [33m404 [0m7.412 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m5.332 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m5.877 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m6.411 ms - 1610[0m
+[0mGET /warning/ [33m404 [0m7.288 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m6.834 ms - 1610[0m
+[0mGET /jenkins/ [33m404 [0m5.329 ms - 1610[0m
+[0mGET / [32m200 [0m5.881 ms - 170[0m
+[0mGET / [32m200 [0m8.244 ms - 170[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m4.905 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m7.425 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m8.205 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m5.982 ms - 1610[0m
+[0mGET /server-status [33m404 [0m9.293 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m9.871 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m11.398 ms - 1610[0m
+[0mGET /jenkins [33m404 [0m12.565 ms - 1610[0m
+[0mGET /rockmongo [33m404 [0m5.434 ms - 1610[0m
+[0mGET /warning [33m404 [0m5.257 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m5.048 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m10.731 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m4.593 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m14.356 ms - 1610[0m
+[0mGET /jenkins [33m404 [0m4.570 ms - 1610[0m
+[0mGET /jenkins [33m404 [0m5.590 ms - 1610[0m
+[0mGET /rockmongo [33m404 [0m6.929 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m41.587 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.402 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m11.303 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m37.647 ms - 384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.488 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m7.978 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m25.492 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.829 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m26.290 ms - 384[0m
+[0mGET /qmcheck [32m200 [0m23.159 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.775 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m23.918 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.322 ms - -[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m10.321 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m5.666 ms - 1610[0m
+[0mGET /misc/states.js [33m404 [0m3.946 ms - 1610[0m
+[0mGET /static/js/md5.js [33m404 [0m5.422 ms - 1610[0m
+[0mGET /include/js/md5.js [33m404 [0m4.469 ms - 1610[0m
+[0mGET /include/js/common.js [33m404 [0m6.320 ms - 1610[0m
+[0mGET /include/js/ajax.js [33m404 [0m4.267 ms - 1610[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m4.391 ms - 1610[0m
+[0mGET /js/wind_editor.js [33m404 [0m5.609 ms - 1610[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m4.954 ms - 1610[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m8.605 ms - 1610[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m7.081 ms - 1610[0m
+[0mGET /template/default/style.css [33m404 [0m4.513 ms - 1610[0m
+[0mGET /static/js/reset.js [33m404 [0m25.974 ms - 1610[0m
+[0mGET /images/js/common.js [33m404 [0m4.770 ms - 1610[0m
+[0mGET /templets/style/dede.css [33m404 [0m7.041 ms - 1610[0m
+[0mGET /include/dedeajax2.js [33m404 [0m6.573 ms - 1610[0m
+[0mGET /images/default/inc.js [33m404 [0m4.473 ms - 1610[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m7.766 ms - 1610[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m4.292 ms - 1610[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m4.231 ms - 1610[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m4.974 ms - 1610[0m
+[0mGET /media/system/js/tab.js [33m404 [0m4.868 ms - 1610[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m5.911 ms - 1610[0m
+[0mGET /lang/zh/front.js [33m404 [0m3.981 ms - 1610[0m
+[0mGET /style/default/content.css [33m404 [0m7.048 ms - 1610[0m
+[0mGET /lang/zh/edit.js [33m404 [0m5.629 ms - 1610[0m
+[0mGET /rockmongo/ [33m404 [0m5.634 ms - 1610[0m
+[0mGET /server-status [33m404 [0m6.450 ms - 1610[0m
+[0mGET /ueditor.all.js [33m404 [0m4.794 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m4.351 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m5.723 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m5.595 ms - 1610[0m
+[0mGET /warning/ [33m404 [0m4.479 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m4.218 ms - 1610[0m
+[0mGET /jenkins/ [33m404 [0m5.607 ms - 1610[0m
+[0mGET / [32m200 [0m6.930 ms - 170[0m
+[0mGET / [32m200 [0m4.322 ms - 170[0m
+[0mGET /favicon.ico [33m404 [0m4.670 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m28.574 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.624 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m22.178 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m7.345 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m17.629 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.443 ms - 773[0m
+[0mGET /warning [33m404 [0m6.274 ms - 1610[0m
+[0mGET /warning [33m404 [0m4.028 ms - 1610[0m
+[0mGET /warning [33m404 [0m4.455 ms - 1610[0m
+[0mGET /warning [33m404 [0m4.748 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m8.156 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m5.224 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m4.183 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m4.254 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m5.841 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m6.759 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m11.819 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m13.572 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m6.019 ms - 1610[0m
+[0mGET / [32m200 [0m6.209 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m23.139 ms - 384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.368 ms - -[0m
