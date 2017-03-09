@@ -28,7 +28,6 @@ var j = schedule.scheduleJob('55 23 * * *', function() {
 ////////////////////////////////////////////////////////////////////////////////
 
 var app = express();
-var accessLogfile = fs.createWriteStream('access.log', { flags: 'a' });
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
