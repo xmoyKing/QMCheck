@@ -8506,3 +8506,370 @@ end: check
 [0mGET / [32m200 [0m6.209 ms - 170[0m
 [0mGET /qmcheck [32m200 [0m23.139 ms - 384[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.368 ms - -[0m
+[0mGET /qmcheck [32m200 [0m27.032 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.675 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m31.498 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.684 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m17.374 ms - 384[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.173 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m24.606 ms - 384[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.402 ms - -[0m
+begin : Sat Mar 04 2017 23:19:52 GMT+0800 (CST)
+end: check
+{"ids":["6915517","5256595","7100323","7065346","6989530","6990058","6800449"],"record":{"date":"Sat Mar 04 2017 23:19:52 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/f6bae7d64cdfcbdeb44b5cd9c3f1547e.png?imageView/1/w/30/h/30/","dataid":"6915517","name":"Moon-sun","link":"/checkin/user/46368757/","points":242,"days":30,"rate":96.67,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/2ed7ad74927e322ae3430a4321705975.png?imageView/1/w/30/h/30/","dataid":"5256595","name":"xin","link":"/checkin/user/50658772/","points":4820,"days":232,"rate":96.98,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d32d66083907910c7b54c6cadfd5237d.png?imageView/1/w/30/h/30/","dataid":"7100323","name":"潘梦佳","link":"/checkin/user/49014163/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f0e9ac6652723cda4fc23df3fb4b81bf.png?imageView/1/w/30/h/30/","dataid":"7065346","name":"小花园","link":"/checkin/user/41405983/","points":40,"days":6,"rate":83.33,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/dc43ea2859f1e8d6353594639d029a9d.png?imageView/1/w/30/h/30/","dataid":"6989530","name":"OBSERVERwzr","link":"/checkin/user/54437431/","points":120,"days":16,"rate":93.75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d866bc099e2ea76784dc48a8ab69eb0a?imageView/1/w/30/h/30/","dataid":"6990058","name":"童作焉","link":"/checkin/user/7161649/","points":120,"days":16,"rate":93.75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3e5d9c0b5330a336828d2e2cd9aa5886.png?imageView/1/w/30/h/30/","dataid":"6800449","name":"源源","link":"/checkin/user/14455411/","points":1060,"days":57,"rate":96.49,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1023.306 ms - 2335[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.679 ms - -[0m
+begin : Sat Mar 04 2017 23:20:02 GMT+0800 (CST)
+end: check
+{"ids":["7100323","7065346","6989530","6990058","6800449","6915517","5256595"],"record":{"date":"Sat Mar 04 2017 23:20:02 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/d32d66083907910c7b54c6cadfd5237d.png?imageView/1/w/30/h/30/","dataid":"7100323","name":"潘梦佳","link":"/checkin/user/49014163/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f0e9ac6652723cda4fc23df3fb4b81bf.png?imageView/1/w/30/h/30/","dataid":"7065346","name":"小花园","link":"/checkin/user/41405983/","points":40,"days":6,"rate":83.33,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/dc43ea2859f1e8d6353594639d029a9d.png?imageView/1/w/30/h/30/","dataid":"6989530","name":"OBSERVERwzr","link":"/checkin/user/54437431/","points":120,"days":16,"rate":93.75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d866bc099e2ea76784dc48a8ab69eb0a?imageView/1/w/30/h/30/","dataid":"6990058","name":"童作焉","link":"/checkin/user/7161649/","points":120,"days":16,"rate":93.75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3e5d9c0b5330a336828d2e2cd9aa5886.png?imageView/1/w/30/h/30/","dataid":"6800449","name":"源源","link":"/checkin/user/14455411/","points":1060,"days":57,"rate":96.49,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f6bae7d64cdfcbdeb44b5cd9c3f1547e.png?imageView/1/w/30/h/30/","dataid":"6915517","name":"Moon-sun","link":"/checkin/user/46368757/","points":242,"days":30,"rate":96.67,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/2ed7ad74927e322ae3430a4321705975.png?imageView/1/w/30/h/30/","dataid":"5256595","name":"xin","link":"/checkin/user/50658772/","points":4820,"days":232,"rate":96.98,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m815.841 ms - 2335[0m
+begin : Sat Mar 04 2017 23:56:31 GMT+0800 (CST)
+[0mGET /qmcheck [36m304 [0m156.486 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.653 ms - -[0m
+end: check
+[0mGET /qmcheck [32m200 [0m144.243 ms - 657[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.548 ms - -[0m
+[0mGET /warning [33m404 [0m53.594 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m29.892 ms - 1610[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m46.299 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m17.578 ms - 1610[0m
+[0mGET /misc/states.js [33m404 [0m6.772 ms - 1610[0m
+[0mGET /static/js/md5.js [33m404 [0m20.442 ms - 1610[0m
+[0mGET /include/js/md5.js [33m404 [0m7.231 ms - 1610[0m
+[0mGET /include/js/common.js [33m404 [0m14.646 ms - 1610[0m
+[0mGET /include/js/ajax.js [33m404 [0m20.123 ms - 1610[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m17.659 ms - 1610[0m
+[0mGET /js/wind_editor.js [33m404 [0m6.016 ms - 1610[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m10.035 ms - 1610[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m6.632 ms - 1610[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m7.592 ms - 1610[0m
+[0mGET /template/default/style.css [33m404 [0m19.305 ms - 1610[0m
+[0mGET /static/js/reset.js [33m404 [0m6.875 ms - 1610[0m
+[0mGET /images/js/common.js [33m404 [0m12.525 ms - 1610[0m
+[0mGET /templets/style/dede.css [33m404 [0m4.760 ms - 1610[0m
+[0mGET /include/dedeajax2.js [33m404 [0m6.793 ms - 1610[0m
+[0mGET /images/default/inc.js [33m404 [0m10.075 ms - 1610[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m6.210 ms - 1610[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m8.297 ms - 1610[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m6.769 ms - 1610[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m7.029 ms - 1610[0m
+[0mGET /media/system/js/tab.js [33m404 [0m8.122 ms - 1610[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m4.706 ms - 1610[0m
+[0mGET /lang/zh/front.js [33m404 [0m10.062 ms - 1610[0m
+[0mGET /style/default/content.css [33m404 [0m4.698 ms - 1610[0m
+[0mGET /lang/zh/edit.js [33m404 [0m7.480 ms - 1610[0m
+[0mGET /rockmongo/ [33m404 [0m11.359 ms - 1610[0m
+[0mGET /server-status [33m404 [0m5.381 ms - 1610[0m
+[0mGET /ueditor.all.js [33m404 [0m7.509 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m8.100 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m5.753 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m7.547 ms - 1610[0m
+[0mGET /warning/ [33m404 [0m10.580 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m5.012 ms - 1610[0m
+[0mGET /jenkins/ [33m404 [0m5.503 ms - 1610[0m
+[0mGET / [32m200 [0m6.491 ms - 170[0m
+[0mGET / [32m200 [0m5.453 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m31.838 ms - 657[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.754 ms - 773[0m
+[0mGET / [32m200 [0m4.725 ms - 170[0m
+[0mGET /server-status [33m404 [0m10.959 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m6.165 ms - 1610[0m
+[0mGET / [32m200 [0m5.666 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m37.714 ms - 657[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.765 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m20.946 ms - 657[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.097 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m43.582 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.505 ms - -[0m
+[0mGET /qmcheck [32m200 [0m39.941 ms - 657[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.627 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m33.758 ms - 657[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.762 ms - 773[0m
+begin : Sun Mar 05 2017 23:47:22 GMT+0800 (CST)
+end: check
+{"ids":["6892609","6989530","6984322","4980901"],"record":{"date":"Sun Mar 05 2017 23:47:22 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/9a7f4d2d2873ccfc328ff0c86962d9b6?imageView/1/w/30/h/30/","dataid":"6892609","name":"LagSeeing","link":"/checkin/user/21505852/","points":272,"days":37,"rate":91.89,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/dc43ea2859f1e8d6353594639d029a9d.png?imageView/1/w/30/h/30/","dataid":"6989530","name":"OBSERVERwzr","link":"/checkin/user/54437431/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/cf86641854c03702b5ca708762d88d56?imageView/1/w/30/h/30/","dataid":"6984322","name":"陈柯布","link":"/checkin/user/9778645/","points":156,"days":18,"rate":94.44,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a623c7498ec19a138c486a75c716b64c?imageView/1/w/30/h/30/","dataid":"4980901","name":"只爱打卡不爱说话","link":"/checkin/user/30169726/","points":3016,"days":261,"rate":96.55,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1024.677 ms - 1516[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.130 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m8.063 ms - 1610[0m
+begin : Sun Mar 05 2017 23:47:33 GMT+0800 (CST)
+end: check
+{"ids":["6892609","6989530","6984322","4980901"],"record":{"date":"Sun Mar 05 2017 23:47:33 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/9a7f4d2d2873ccfc328ff0c86962d9b6?imageView/1/w/30/h/30/","dataid":"6892609","name":"LagSeeing","link":"/checkin/user/21505852/","points":272,"days":37,"rate":91.89,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/dc43ea2859f1e8d6353594639d029a9d.png?imageView/1/w/30/h/30/","dataid":"6989530","name":"OBSERVERwzr","link":"/checkin/user/54437431/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/cf86641854c03702b5ca708762d88d56?imageView/1/w/30/h/30/","dataid":"6984322","name":"陈柯布","link":"/checkin/user/9778645/","points":156,"days":18,"rate":94.44,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a623c7498ec19a138c486a75c716b64c?imageView/1/w/30/h/30/","dataid":"4980901","name":"只爱打卡不爱说话","link":"/checkin/user/30169726/","points":3016,"days":261,"rate":96.55,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m878.336 ms - 1516[0m
+begin : Sun Mar 05 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m66.128 ms - 1510[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.724 ms - -[0m
+[0mGET /qmcheck [36m304 [0m61.844 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.367 ms - -[0m
+[0mGET /qmcheck [32m200 [0m60.838 ms - 1510[0m
+[0mGET /qmcheck [32m200 [0m59.578 ms - 1510[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.397 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m92.788 ms - 1510[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.131 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m15.989 ms - 1610[0m
+[0mGET /qmcheck [36m304 [0m59.919 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.448 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m13.997 ms - 1610[0m
+[0mGET / [32m200 [0m9.303 ms - 170[0m
+[0mOPTIONS / [32m200 [0m0.663 ms - 8[0m
+[0mGET /nice%20ports%2C/Tri%6Eity.txt%2ebak [33m404 [0m9.358 ms - 1610[0m
+[0mGET / [32m200 [0m11.656 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m38.231 ms - 1510[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m7.974 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m10.757 ms - 1610[0m
+[0mGET /misc/states.js [33m404 [0m10.129 ms - 1610[0m
+[0mGET /static/js/md5.js [33m404 [0m10.393 ms - 1610[0m
+[0mGET /include/js/md5.js [33m404 [0m7.902 ms - 1610[0m
+[0mGET /include/js/common.js [33m404 [0m9.313 ms - 1610[0m
+[0mGET /include/js/ajax.js [33m404 [0m6.904 ms - 1610[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m10.745 ms - 1610[0m
+[0mGET /js/wind_editor.js [33m404 [0m11.247 ms - 1610[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m8.562 ms - 1610[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m7.343 ms - 1610[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m8.786 ms - 1610[0m
+[0mGET /template/default/style.css [33m404 [0m12.356 ms - 1610[0m
+[0mGET /static/js/reset.js [33m404 [0m8.543 ms - 1610[0m
+[0mGET /images/js/common.js [33m404 [0m14.352 ms - 1610[0m
+[0mGET /templets/style/dede.css [33m404 [0m13.113 ms - 1610[0m
+[0mGET /include/dedeajax2.js [33m404 [0m12.746 ms - 1610[0m
+[0mGET /images/default/inc.js [33m404 [0m18.100 ms - 1610[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m11.805 ms - 1610[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m13.009 ms - 1610[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m6.662 ms - 1610[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m9.497 ms - 1610[0m
+[0mGET /media/system/js/tab.js [33m404 [0m10.211 ms - 1610[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m8.346 ms - 1610[0m
+[0mGET /lang/zh/front.js [33m404 [0m8.246 ms - 1610[0m
+[0mGET /style/default/content.css [33m404 [0m7.658 ms - 1610[0m
+[0mGET /lang/zh/edit.js [33m404 [0m6.797 ms - 1610[0m
+[0mGET /rockmongo/ [33m404 [0m6.721 ms - 1610[0m
+[0mGET /server-status [33m404 [0m22.053 ms - 1610[0m
+[0mGET /ueditor.all.js [33m404 [0m12.653 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m6.617 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m9.712 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m23.491 ms - 1610[0m
+[0mGET /warning/ [33m404 [0m8.710 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m8.857 ms - 1610[0m
+[0mGET /jenkins/ [33m404 [0m9.430 ms - 1610[0m
+[0mGET / [32m200 [0m9.073 ms - 170[0m
+[0mGET / [32m200 [0m9.112 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m33.498 ms - 1510[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.385 ms - 773[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m9.981 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m8.568 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m7.518 ms - 1610[0m
+[0mGET /server-status [33m404 [0m8.912 ms - 1610[0m
+[0mGET /server-status [33m404 [0m7.451 ms - 1610[0m
+[0mGET /jenkins [33m404 [0m14.692 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m42.570 ms - 1510[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.843 ms - 773[0m
+[0mGET /rockmongo [33m404 [0m13.225 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m9.985 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m7.126 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m11.353 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m71.468 ms - 1510[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.709 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m53.721 ms - 1510[0m
+[0mGET /qmcheck [32m200 [0m45.753 ms - 1510[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.660 ms - 773[0m
+begin : Mon Mar 06 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m55.171 ms - 1221[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.484 ms - -[0m
+begin : Mon Mar 06 2017 23:56:58 GMT+0800 (CST)
+end: check
+{"ids":[],"record":{"date":"Mon Mar 06 2017 23:56:58 GMT+0800 (CST)","dispel":[]}}
+[0mGET /users [32m200 [0m908.982 ms - 390[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.535 ms - -[0m
+begin : Mon Mar 06 2017 23:57:09 GMT+0800 (CST)
+end: check
+{"ids":[],"record":{"date":"Mon Mar 06 2017 23:57:09 GMT+0800 (CST)","dispel":[]}}
+[0mGET /users [32m200 [0m951.364 ms - 390[0m
+begin : Tue Mar 07 2017 02:07:58 GMT+0800 (CST)
+end: check
+{"ids":["7130935","7108096","7071691","7073239","7074463","7068529","7040023","7020772","7018144","6765904","6990058","6990292","6922444","6920395","6915517","6990571","6991576","6986899","6977812","6878893","6973888"],"record":{"date":"Tue Mar 07 2017 02:07:58 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/4a42ee53b86479460ad073d663ab41ea.png?imageView/1/w/30/h/30/","dataid":"7130935","name":"深屿暖树","link":"/checkin/user/54402592/","points":0,"days":1,"rate":0,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d51430dbe730e945dd6d8063c3f0d980.png?imageView/1/w/30/h/30/","dataid":"7108096","name":"阿墨啊阿墨","link":"/checkin/user/40960018/","points":44,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":56,"days":8,"rate":87.5,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/51860a8bdcdc1fc6be2c0608ffc3456b.png?imageView/1/w/30/h/30/","dataid":"7073239","name":"豆豆不吃豆芽","link":"/checkin/user/4995670/","points":56,"days":8,"rate":87.5,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":56,"days":8,"rate":87.5,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/0566be65af568620b8f000a9119e4dd9.png?imageView/1/w/30/h/30/","dataid":"7068529","name":"mobile_e00ef63309","link":"/checkin/user/61775971/","points":64,"days":9,"rate":88.89,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/21c2cecac3a54b117c71229741442bd4?imageView/1/w/30/h/30/","dataid":"7040023","name":"Jerry-dandelion","link":"/checkin/user/7904851/","points":88,"days":12,"rate":91.67,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":152,"days":14,"rate":92.86,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/1c053aac832e7beb9646a85ef407d3d2.png?imageView/1/w/30/h/30/","dataid":"7018144","name":"刘斌","link":"/checkin/user/21713197/","points":112,"days":15,"rate":93.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/99140aca18a668515da291741f99f404?imageView/1/w/30/h/30/","dataid":"6765904","name":"千叶雪露","link":"/checkin/user/5310835/","points":552,"days":68,"rate":94.12,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d866bc099e2ea76784dc48a8ab69eb0a?imageView/1/w/30/h/30/","dataid":"6990058","name":"童作焉","link":"/checkin/user/7161649/","points":144,"days":19,"rate":94.74,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9de11a92357a759d05b1eeb866b8af37.png?imageView/1/w/30/h/30/","dataid":"6990292","name":"子不语","link":"/checkin/user/54319219/","points":144,"days":19,"rate":94.74,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/83640577947f7dfea602e0f8e84219cf.png?imageView/1/w/30/h/30/","dataid":"6922444","name":"snowy","link":"/checkin/user/12724249/","points":260,"days":31,"rate":96.77,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/838866035f3d8963ac4570bdcfa75c25.png?imageView/1/w/30/h/30/","dataid":"6920395","name":"所有完美的不完美","link":"/checkin/user/8539558/","points":268,"days":32,"rate":96.88,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f6bae7d64cdfcbdeb44b5cd9c3f1547e.png?imageView/1/w/30/h/30/","dataid":"6915517","name":"Moon-sun","link":"/checkin/user/46368757/","points":266,"days":33,"rate":96.97,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9c501f95736ed550c4281228e7b8c97c.png?imageView/1/w/30/h/30/","dataid":"6990571","name":"H","link":"/checkin/user/41309737/","points":144,"days":19,"rate":94.74,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30fe68cea90d55185965441ef52fad20.jpg?imageView/1/w/30/h/30/","dataid":"6991576","name":"XMOY","link":"/checkin/user/9705745/","points":1752,"days":19,"rate":94.74,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":152,"days":20,"rate":95,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8637a2e71b0f1ee4ab3b4922c8eca328?imageView/1/w/30/h/30/","dataid":"6977812","name":"Elvira","link":"/checkin/user/22564882/","points":160,"days":21,"rate":95.24,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3599333cbbc35b1ae34a53bdd0c24018?imageView/1/w/30/h/30/","dataid":"6878893","name":"二环三十二娘","link":"/checkin/user/169846/","points":348,"days":43,"rate":95.35,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30aceb9418937fa579e290c9b1897239?imageView/1/w/30/h/30/","dataid":"6973888","name":"玥玥小妞","link":"/checkin/user/15390778/","points":208,"days":22,"rate":95.45,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1486.554 ms - 6345[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m22.376 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m17.086 ms - 1610[0m
+[0mGET /misc/states.js [33m404 [0m15.181 ms - 1610[0m
+[0mGET /static/js/md5.js [33m404 [0m12.724 ms - 1610[0m
+[0mGET /include/js/md5.js [33m404 [0m15.647 ms - 1610[0m
+[0mGET /include/js/common.js [33m404 [0m12.793 ms - 1610[0m
+[0mGET /include/js/ajax.js [33m404 [0m20.795 ms - 1610[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m25.026 ms - 1610[0m
+[0mGET /js/wind_editor.js [33m404 [0m16.607 ms - 1610[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m19.339 ms - 1610[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m23.385 ms - 1610[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m19.887 ms - 1610[0m
+[0mGET /template/default/style.css [33m404 [0m12.971 ms - 1610[0m
+[0mGET /static/js/reset.js [33m404 [0m21.127 ms - 1610[0m
+[0mGET /images/js/common.js [33m404 [0m10.244 ms - 1610[0m
+[0mGET /templets/style/dede.css [33m404 [0m15.082 ms - 1610[0m
+[0mGET /include/dedeajax2.js [33m404 [0m12.050 ms - 1610[0m
+[0mGET /images/default/inc.js [33m404 [0m14.496 ms - 1610[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m8.927 ms - 1610[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m12.870 ms - 1610[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m12.362 ms - 1610[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m10.865 ms - 1610[0m
+[0mGET /media/system/js/tab.js [33m404 [0m18.577 ms - 1610[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m10.830 ms - 1610[0m
+[0mGET /lang/zh/front.js [33m404 [0m17.119 ms - 1610[0m
+[0mGET /style/default/content.css [33m404 [0m8.617 ms - 1610[0m
+[0mGET /lang/zh/edit.js [33m404 [0m10.238 ms - 1610[0m
+[0mGET /rockmongo/ [33m404 [0m16.163 ms - 1610[0m
+[0mGET /server-status [33m404 [0m10.829 ms - 1610[0m
+[0mGET /ueditor.all.js [33m404 [0m12.614 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m11.393 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m11.246 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m10.521 ms - 1610[0m
+[0mGET /warning/ [33m404 [0m14.690 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m11.286 ms - 1610[0m
+[0mGET /jenkins/ [33m404 [0m11.549 ms - 1610[0m
+[0mGET / [32m200 [0m8.465 ms - 170[0m
+[0mGET / [32m200 [0m9.143 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m54.564 ms - 1221[0m
+[0mGET /qmcheck [32m200 [0m57.740 ms - 1221[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.777 ms - -[0m
+[0mGET / [32m200 [0m6.537 ms - 170[0m
+[0mGET / [32m200 [0m6.485 ms - 170[0m
+[0mGET /pleasereadthis [33m404 [0m11.206 ms - 1610[0m
+[0mGET /server-status [33m404 [0m10.955 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m18.147 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m28.365 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m11.270 ms - 1610[0m
+[0mGET /server-status [33m404 [0m12.537 ms - 1610[0m
+[0mGET /warning [33m404 [0m8.464 ms - 1610[0m
+[0mGET /warning [33m404 [0m9.538 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m8.330 ms - 1610[0m
+[0mGET /qmcheck [32m200 [0m50.695 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.949 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m32.924 ms - 1221[0m
+[0mGET /qmcheck [32m200 [0m47.040 ms - 1221[0m
+[0mGET /qmcheck [32m200 [0m43.278 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.821 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m39.728 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.542 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m35.794 ms - 1221[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.793 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m10.021 ms - 1610[0m
+begin : Tue Mar 07 2017 22:22:16 GMT+0800 (CST)
+end: check
+{"ids":["6915517","7130935","7108096","7071691","7068529","7020772","7018144","6991576","6986899","6973888"],"record":{"date":"Tue Mar 07 2017 22:22:16 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/f6bae7d64cdfcbdeb44b5cd9c3f1547e.png?imageView/1/w/30/h/30/","dataid":"6915517","name":"Moon-sun","link":"/checkin/user/46368757/","points":266,"days":33,"rate":96.97,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/4a42ee53b86479460ad073d663ab41ea.png?imageView/1/w/30/h/30/","dataid":"7130935","name":"深屿暖树","link":"/checkin/user/54402592/","points":0,"days":1,"rate":0,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d51430dbe730e945dd6d8063c3f0d980.png?imageView/1/w/30/h/30/","dataid":"7108096","name":"阿墨啊阿墨","link":"/checkin/user/40960018/","points":44,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":56,"days":8,"rate":87.5,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/0566be65af568620b8f000a9119e4dd9.png?imageView/1/w/30/h/30/","dataid":"7068529","name":"mobile_e00ef63309","link":"/checkin/user/61775971/","points":64,"days":9,"rate":88.89,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":152,"days":14,"rate":92.86,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/1c053aac832e7beb9646a85ef407d3d2.png?imageView/1/w/30/h/30/","dataid":"7018144","name":"刘斌","link":"/checkin/user/21713197/","points":112,"days":15,"rate":93.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30fe68cea90d55185965441ef52fad20.jpg?imageView/1/w/30/h/30/","dataid":"6991576","name":"XMOY","link":"/checkin/user/9705745/","points":1752,"days":19,"rate":94.74,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":152,"days":20,"rate":95,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30aceb9418937fa579e290c9b1897239?imageView/1/w/30/h/30/","dataid":"6973888","name":"玥玥小妞","link":"/checkin/user/15390778/","points":208,"days":22,"rate":95.45,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1382.456 ms - 3240[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.785 ms - -[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m18.715 ms - 1610[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m12.864 ms - 1610[0m
+[0mGET /misc/states.js [33m404 [0m14.786 ms - 1610[0m
+[0mGET /static/js/md5.js [33m404 [0m12.678 ms - 1610[0m
+[0mGET /include/js/md5.js [33m404 [0m19.605 ms - 1610[0m
+[0mGET /include/js/common.js [33m404 [0m16.122 ms - 1610[0m
+[0mGET /include/js/ajax.js [33m404 [0m21.097 ms - 1610[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m10.816 ms - 1610[0m
+[0mGET /js/wind_editor.js [33m404 [0m11.552 ms - 1610[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m12.264 ms - 1610[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m12.431 ms - 1610[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m14.193 ms - 1610[0m
+[0mGET /template/default/style.css [33m404 [0m8.861 ms - 1610[0m
+[0mGET /static/js/reset.js [33m404 [0m13.599 ms - 1610[0m
+[0mGET /images/js/common.js [33m404 [0m10.886 ms - 1610[0m
+[0mGET /templets/style/dede.css [33m404 [0m9.892 ms - 1610[0m
+[0mGET /include/dedeajax2.js [33m404 [0m11.840 ms - 1610[0m
+[0mGET /images/default/inc.js [33m404 [0m9.114 ms - 1610[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m8.200 ms - 1610[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m18.765 ms - 1610[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m12.467 ms - 1610[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m9.059 ms - 1610[0m
+[0mGET /media/system/js/tab.js [33m404 [0m33.777 ms - 1610[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m9.137 ms - 1610[0m
+[0mGET /lang/zh/front.js [33m404 [0m12.278 ms - 1610[0m
+[0mGET /style/default/content.css [33m404 [0m9.208 ms - 1610[0m
+[0mGET /lang/zh/edit.js [33m404 [0m10.437 ms - 1610[0m
+[0mGET /rockmongo/ [33m404 [0m8.195 ms - 1610[0m
+[0mGET /server-status [33m404 [0m10.650 ms - 1610[0m
+[0mGET /ueditor.all.js [33m404 [0m9.290 ms - 1610[0m
+[0mGET /please_read/_search [33m404 [0m10.731 ms - 1610[0m
+[0mGET /pleasereadthis [33m404 [0m9.096 ms - 1610[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m19.078 ms - 1610[0m
+[0mGET /warning/ [33m404 [0m10.827 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m14.662 ms - 1610[0m
+[0mGET /jenkins/ [33m404 [0m13.257 ms - 1610[0m
+[0mGET / [32m200 [0m7.275 ms - 170[0m
+[0mGET / [32m200 [0m8.434 ms - 170[0m
+[0mGET /qmcheck [32m200 [0m52.155 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.287 ms - 773[0m
+begin : Tue Mar 07 2017 23:55:00 GMT+0800 (CST)
+[0mGET /qmcheck [32m200 [0m38.674 ms - 1221[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.621 ms - -[0m
+[0mGET /qmcheck [36m304 [0m38.055 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.418 ms - -[0m
+begin : Tue Mar 07 2017 23:57:25 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Tue Mar 07 2017 23:57:35 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Tue Mar 07 2017 23:58:35 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Tue Mar 07 2017 23:58:49 GMT+0800 (CST)
+[0mGET /qmcheck [36m304 [0m46.944 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.420 ms - -[0m
+[0mGET /users [0m- [0m- ms - -[0m
+[0mGET /qmcheck [36m304 [0m54.372 ms - -[0m
+begin : Tue Mar 07 2017 23:59:05 GMT+0800 (CST)
+[0mGET /stylesheets/style.css [36m304 [0m0.491 ms - -[0m
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Wed Mar 08 2017 00:00:05 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+[0mGET /favicon.ico [33m404 [0m9.170 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m9.754 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m8.887 ms - 1610[0m
+[0mGET /jenkins [33m404 [0m8.160 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m14.849 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m7.306 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m8.312 ms - 1610[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m12.353 ms - 1610[0m
+begin : Wed Mar 08 2017 06:06:14 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Wed Mar 08 2017 06:06:25 GMT+0800 (CST)
+[0mGET / [32m200 [0m12.148 ms - 170[0m
+[0mGET /users [0m- [0m- ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.777 ms - -[0m
+[0mGET / [32m200 [0m26.164 ms - 170[0m
+/home/ubuntu/OY/QMCheck/qm.js:49
+                var $ = cheerio.load(res.text);
+                                        ^
+
+TypeError: Cannot read property 'text' of undefined
+    at /home/ubuntu/OY/QMCheck/qm.js:49:41
+    at Request.callback (/home/ubuntu/OY/QMCheck/node_modules/superagent/lib/node/index.js:672:3)
+    at ClientRequest.<anonymous> (/home/ubuntu/OY/QMCheck/node_modules/superagent/lib/node/index.js:600:10)
+    at ClientRequest.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at TLSSocket.socketOnEnd (_http_client.js:346:9)
+    at emitNone (events.js:91:20)
+    at TLSSocket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+npm ERR! Linux 3.13.0-86-generic
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.9.1
+npm ERR! npm  v3.10.8
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
