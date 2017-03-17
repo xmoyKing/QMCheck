@@ -8873,3 +8873,547 @@ npm ERR! There is likely additional logging output above.
 
 npm ERR! Please include the following file with any support request:
 npm ERR!     /home/ubuntu/OY/QMCheck/npm-debug.log
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module '/home/ubuntu/QMCheck/npm'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:394:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:509:3
+
+> qmcheck@0.0.0 start /home/ubuntu/QMCheck
+> node ./bin/www
+
+Port 80 requires elevated privileges
+
+npm ERR! Linux 4.4.0-53-generic
+npm ERR! argv "/opt/node-v6.10.0-linux-x64/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.10.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/QMCheck/npm-debug.log
+
+> qmcheck@0.0.0 start /home/ubuntu/QMCheck
+> node ./bin/www
+
+[0mGET / [32m200 [0m420.023 ms - 221[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.952 ms - 773[0m
+[0mGET /favicon.ico [33m404 [0m66.644 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m220.879 ms - 1221[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.853 ms - -[0m
+begin : Thu Mar 09 2017 15:28:06 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Thu Mar 09 2017 15:30:06 GMT+0800 (CST)
+[0mGET /users [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m36.208 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.009 ms - -[0m
+[0mGET /qmcheck [32m200 [0m130.830 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.189 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m92.124 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.986 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m57.236 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.445 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m54.625 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.856 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m44.779 ms - 1221[0m
+[0mGET /qmcheck [32m200 [0m184.495 ms - 1221[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.372 ms - 773[0m
+begin : Thu Mar 09 2017 23:55:00 GMT+0800 (CST)
+
+> qmcheck@0.0.0 start /home/ubuntu/QMCheck
+> node ./bin/www
+
+Port 3000 is already in use
+
+npm ERR! Linux 4.4.0-53-generic
+npm ERR! argv "/opt/node-v6.10.0-linux-x64/bin/node" "/usr/local/bin/npm" "start"
+npm ERR! node v6.10.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! qmcheck@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the qmcheck@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the qmcheck package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs qmcheck
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls qmcheck
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/QMCheck/npm-debug.log
+[0mGET /qmcheck [32m200 [0m154.937 ms - 2955[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.069 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m2.389 ms - 51806[0m
+[0mGET /qmcheck [32m200 [0m169.038 ms - 2955[0m
+[0mGET /qmcheck [32m200 [0m62.531 ms - 2955[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.380 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m84.965 ms - 2955[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.701 ms - 773[0m
+[0mGET /favicon.ico [32m200 [0m0.837 ms - 51806[0m
+[0mGET /qmcheck [32m200 [0m32.648 ms - 2955[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.587 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m44.871 ms - 2955[0m
+[0mGET / [32m200 [0m10.034 ms - 221[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.777 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m27.519 ms - 2955[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.144 ms - -[0m
+[0mGET / [32m200 [0m7.353 ms - 221[0m
+begin : Fri Mar 10 2017 23:54:13 GMT+0800 (CST)
+end: check
+{"ids":["7138858","7140031","6765904","6973888"],"record":{"date":"Fri Mar 10 2017 23:54:13 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/4b08dd85998204ab932d847266571032.png?imageView/1/w/30/h/30/","dataid":"7138858","name":"chance","link":"/checkin/user/62292208/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/303ea9f6cae8bc40933e7fdf5c1e2790.jpg?imageView/1/w/30/h/30/","dataid":"7140031","name":"_ShirlineLee","link":"/checkin/user/63696676/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/99140aca18a668515da291741f99f404?imageView/1/w/30/h/30/","dataid":"6765904","name":"千叶雪露","link":"/checkin/user/5310835/","points":584,"days":71,"rate":95.77,"check0":"未打卡","check1":"已打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30aceb9418937fa579e290c9b1897239?imageView/1/w/30/h/30/","dataid":"6973888","name":"玥玥小妞","link":"/checkin/user/15390778/","points":232,"days":25,"rate":96,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1245.452 ms - 1508[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.798 ms - -[0m
+begin : Fri Mar 10 2017 23:54:24 GMT+0800 (CST)
+end: check
+{"ids":["7138858","7140031","6765904","6973888"],"record":{"date":"Fri Mar 10 2017 23:54:24 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/4b08dd85998204ab932d847266571032.png?imageView/1/w/30/h/30/","dataid":"7138858","name":"chance","link":"/checkin/user/62292208/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/303ea9f6cae8bc40933e7fdf5c1e2790.jpg?imageView/1/w/30/h/30/","dataid":"7140031","name":"_ShirlineLee","link":"/checkin/user/63696676/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/99140aca18a668515da291741f99f404?imageView/1/w/30/h/30/","dataid":"6765904","name":"千叶雪露","link":"/checkin/user/5310835/","points":584,"days":71,"rate":95.77,"check0":"未打卡","check1":"已打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30aceb9418937fa579e290c9b1897239?imageView/1/w/30/h/30/","dataid":"6973888","name":"玥玥小妞","link":"/checkin/user/15390778/","points":232,"days":25,"rate":96,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m937.258 ms - 1508[0m
+begin : Fri Mar 10 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m33.819 ms - 221[0m
+[0mGET / [32m200 [0m38.327 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m189.387 ms - 386[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.651 ms - 773[0m
+[0mGET /favicon.ico [32m200 [0m1.435 ms - 51806[0m
+[0mGET /qmcheck [32m200 [0m77.893 ms - 386[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.842 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m55.816 ms - 386[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.805 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m66.747 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.888 ms - -[0m
+[0mGET /qmcheck [32m200 [0m39.184 ms - 386[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.703 ms - 773[0m
+[0mGET /favicon.ico [32m200 [0m1.154 ms - 51806[0m
+[0mGET /qmcheck [36m304 [0m26.001 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.568 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.594 ms - 51806[0m
+begin : Sat Mar 11 2017 23:35:08 GMT+0800 (CST)
+end: check
+{"ids":["7157353","7020772","6717934","6987715"],"record":{"date":"Sat Mar 11 2017 23:35:08 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/4f588e0e1595c1f2c6a723fd4293883e?imageView/1/w/30/h/30/","dataid":"7157353","name":"木子君","link":"/checkin/user/28254259/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":184,"days":18,"rate":94.44,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/240e42a6d6210810a5f1ffdedd3bdad1?imageView/1/w/30/h/30/","dataid":"6717934","name":"funnyshar","link":"/checkin/user/25336951/","points":730,"days":84,"rate":95.24,"check0":"未打卡","check1":"已打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":176,"days":23,"rate":95.65,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1470.743 ms - 1518[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.275 ms - -[0m
+begin : Sat Mar 11 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m101.145 ms - 939[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.965 ms - -[0m
+[0mGET /qmcheck [36m304 [0m74.925 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.445 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.400 ms - 51806[0m
+[0mGET /qmcheck [32m200 [0m98.069 ms - 939[0m
+begin : Sun Mar 12 2017 02:31:32 GMT+0800 (CST)
+end: check
+{"ids":["7164940","7164982","7165459","7166077","7166389","7099810","7071691","7074463","7067329","7055569","7039045","7040023","7027429","7020772","7026226","7018144","6987715","6990292","6990571","6991576","6986899"],"record":{"date":"Sun Mar 12 2017 02:31:32 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/83c09fa2c5682a8553a094484d2e0fbb?imageView/1/w/30/h/30/","dataid":"7164940","name":"夏，静生","link":"/checkin/user/16731187/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/49be522b2f631185c9f871187e161741.png?imageView/1/w/30/h/30/","dataid":"7164982","name":"听说","link":"/checkin/user/62164060/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/c940b19a4fdb09ba42d528b4b6d83481.png?imageView/1/w/30/h/30/","dataid":"7165459","name":"冰激凌","link":"/checkin/user/42125026/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/cf60b3671d81cf7da9fdd6236f4951f5.png?imageView/1/w/30/h/30/","dataid":"7166077","name":"赵一兆","link":"/checkin/user/59497615/","points":8,"days":2,"rate":50,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d182c22b021cb70ab635add12689e360.png?imageView/1/w/30/h/30/","dataid":"7166389","name":"林宇超","link":"/checkin/user/58515748/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/99d814a39bdcab69fcb1918d319681ce.png?imageView/1/w/30/h/30/","dataid":"7099810","name":"chelois","link":"/checkin/user/68762278/","points":72,"days":10,"rate":90,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":116,"days":13,"rate":92.31,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":96,"days":13,"rate":92.31,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f88cc541985fa1ec2073942c64f9cc74.png?imageView/1/w/30/h/30/","dataid":"7067329","name":"carolsweetdo","link":"/checkin/user/5546143/","points":104,"days":14,"rate":92.86,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/756165ad63d7142543a3bea64e75d50a.png?imageView/1/w/30/h/30/","dataid":"7055569","name":"王冬","link":"/checkin/user/63189796/","points":152,"days":15,"rate":93.33,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7039045","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":128,"days":17,"rate":94.12,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/21c2cecac3a54b117c71229741442bd4?imageView/1/w/30/h/30/","dataid":"7040023","name":"Jerry-dandelion","link":"/checkin/user/7904851/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/704c330adf8d33b3cbe66d57d113ac96.png?imageView/1/w/30/h/30/","dataid":"7027429","name":"blank","link":"/checkin/user/3176095/","points":196,"days":18,"rate":94.44,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":192,"days":19,"rate":94.74,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/5bdd5c0298abce198056cf649ab86de1.png?imageView/1/w/30/h/30/","dataid":"7026226","name":"vivitu","link":"/checkin/user/62560774/","points":184,"days":19,"rate":94.74,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/1c053aac832e7beb9646a85ef407d3d2.png?imageView/1/w/30/h/30/","dataid":"7018144","name":"刘斌","link":"/checkin/user/21713197/","points":152,"days":20,"rate":95,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":184,"days":24,"rate":95.83,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9de11a92357a759d05b1eeb866b8af37.png?imageView/1/w/30/h/30/","dataid":"6990292","name":"子不语","link":"/checkin/user/54319219/","points":184,"days":24,"rate":95.83,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9c501f95736ed550c4281228e7b8c97c.png?imageView/1/w/30/h/30/","dataid":"6990571","name":"H","link":"/checkin/user/41309737/","points":184,"days":24,"rate":95.83,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30fe68cea90d55185965441ef52fad20.jpg?imageView/1/w/30/h/30/","dataid":"6991576","name":"XMOY","link":"/checkin/user/9705745/","points":1792,"days":24,"rate":95.83,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":192,"days":25,"rate":96,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1394.759 ms - 6306[0m
+[0mGET / [32m200 [0m23.853 ms - 221[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m29.681 ms - 1562[0m
+[0mGET / [32m200 [0m18.690 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m74.733 ms - 939[0m
+[0mGET / [32m200 [0m10.191 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m71.377 ms - 939[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.673 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m72.712 ms - 939[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.034 ms - -[0m
+[0mGET /qmcheck [32m200 [0m64.735 ms - 939[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.122 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m42.241 ms - 939[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.560 ms - -[0m
+begin : Sun Mar 12 2017 23:45:06 GMT+0800 (CST)
+end: check
+{"ids":["7164940","7164982","7165459","7166077","7099810","7071691","7039045"],"record":{"date":"Sun Mar 12 2017 23:45:06 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/83c09fa2c5682a8553a094484d2e0fbb?imageView/1/w/30/h/30/","dataid":"7164940","name":"夏，静生","link":"/checkin/user/16731187/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/49be522b2f631185c9f871187e161741.png?imageView/1/w/30/h/30/","dataid":"7164982","name":"听说","link":"/checkin/user/62164060/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/c940b19a4fdb09ba42d528b4b6d83481.png?imageView/1/w/30/h/30/","dataid":"7165459","name":"冰激凌","link":"/checkin/user/42125026/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/cf60b3671d81cf7da9fdd6236f4951f5.png?imageView/1/w/30/h/30/","dataid":"7166077","name":"赵一兆","link":"/checkin/user/59497615/","points":8,"days":2,"rate":50,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/99d814a39bdcab69fcb1918d319681ce.png?imageView/1/w/30/h/30/","dataid":"7099810","name":"chelois","link":"/checkin/user/68762278/","points":72,"days":10,"rate":90,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":116,"days":13,"rate":92.31,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7039045","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":128,"days":17,"rate":94.12,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1267.126 ms - 2333[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.882 ms - -[0m
+begin : Sun Mar 12 2017 23:45:17 GMT+0800 (CST)
+end: check
+{"ids":["7164940","7164982","7165459","7166077","7099810","7071691","7039045"],"record":{"date":"Sun Mar 12 2017 23:45:17 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/83c09fa2c5682a8553a094484d2e0fbb?imageView/1/w/30/h/30/","dataid":"7164940","name":"夏，静生","link":"/checkin/user/16731187/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/49be522b2f631185c9f871187e161741.png?imageView/1/w/30/h/30/","dataid":"7164982","name":"听说","link":"/checkin/user/62164060/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/c940b19a4fdb09ba42d528b4b6d83481.png?imageView/1/w/30/h/30/","dataid":"7165459","name":"冰激凌","link":"/checkin/user/42125026/","points":8,"days":2,"rate":50,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/cf60b3671d81cf7da9fdd6236f4951f5.png?imageView/1/w/30/h/30/","dataid":"7166077","name":"赵一兆","link":"/checkin/user/59497615/","points":8,"days":2,"rate":50,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/99d814a39bdcab69fcb1918d319681ce.png?imageView/1/w/30/h/30/","dataid":"7099810","name":"chelois","link":"/checkin/user/68762278/","points":72,"days":10,"rate":90,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":116,"days":13,"rate":92.31,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7039045","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":128,"days":17,"rate":94.12,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1112.114 ms - 2333[0m
+begin : Sun Mar 12 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m65.833 ms - 2038[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.885 ms - -[0m
+[0mGET /qmcheck [32m200 [0m78.299 ms - 2038[0m
+[0mGET /qmcheck [32m200 [0m59.604 ms - 2038[0m
+[0mGET / [32m200 [0m18.803 ms - 221[0m
+[0mGET / [32m200 [0m25.264 ms - 221[0m
+[0mGET / [32m200 [0m7.995 ms - 221[0m
+[0mGET / [32m200 [0m15.381 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m104.845 ms - 2038[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.093 ms - 773[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m21.248 ms - 1562[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m23.313 ms - 1562[0m
+[0mGET /misc/states.js [33m404 [0m13.451 ms - 1562[0m
+[0mGET /static/js/md5.js [33m404 [0m10.217 ms - 1562[0m
+[0mGET /include/js/md5.js [33m404 [0m14.529 ms - 1562[0m
+[0mGET /include/js/common.js [33m404 [0m17.076 ms - 1562[0m
+[0mGET /include/js/ajax.js [33m404 [0m14.241 ms - 1562[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m11.366 ms - 1562[0m
+[0mGET /js/wind_editor.js [33m404 [0m16.753 ms - 1562[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m9.549 ms - 1562[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m16.040 ms - 1562[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m12.371 ms - 1562[0m
+[0mGET /template/default/style.css [33m404 [0m29.644 ms - 1562[0m
+[0mGET /static/js/reset.js [33m404 [0m12.343 ms - 1562[0m
+[0mGET /images/js/common.js [33m404 [0m13.903 ms - 1562[0m
+[0mGET /templets/style/dede.css [33m404 [0m9.557 ms - 1562[0m
+[0mGET /include/dedeajax2.js [33m404 [0m11.591 ms - 1562[0m
+[0mGET /images/default/inc.js [33m404 [0m20.118 ms - 1562[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m10.614 ms - 1562[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m9.312 ms - 1562[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m8.747 ms - 1562[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m23.394 ms - 1562[0m
+[0mGET /media/system/js/tab.js [33m404 [0m7.936 ms - 1562[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m8.500 ms - 1562[0m
+[0mGET /lang/zh/front.js [33m404 [0m7.531 ms - 1562[0m
+[0mGET /style/default/content.css [33m404 [0m8.423 ms - 1562[0m
+[0mGET /lang/zh/edit.js [33m404 [0m14.142 ms - 1562[0m
+[0mGET /rockmongo/ [33m404 [0m7.974 ms - 1562[0m
+[0mGET /server-status [33m404 [0m10.716 ms - 1562[0m
+[0mGET /ueditor.all.js [33m404 [0m8.205 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m18.873 ms - 1562[0m
+[0mGET /pleasereadthis [33m404 [0m13.199 ms - 1562[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m8.831 ms - 1562[0m
+[0mGET /warning/ [33m404 [0m7.932 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m8.520 ms - 1562[0m
+[0mGET /jenkins/ [33m404 [0m17.603 ms - 1562[0m
+[0mGET / [32m200 [0m10.051 ms - 221[0m
+[0mGET / [32m200 [0m9.903 ms - 221[0m
+[0mGET /pleasereadthis [33m404 [0m8.345 ms - 1562[0m
+[0mGET /pleasereadthis [33m404 [0m10.897 ms - 1562[0m
+[0mGET /server-status [33m404 [0m16.093 ms - 1562[0m
+[0mGET /server-status [33m404 [0m7.995 ms - 1562[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m10.246 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m10.466 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m9.645 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m7.048 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m8.241 ms - 1562[0m
+[0mGET /warning [33m404 [0m25.358 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m68.779 ms - 2038[0m
+[0mGET /server-status [33m404 [0m8.163 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m50.981 ms - 2038[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.840 ms - 773[0m
+[0mGET /jenkins [33m404 [0m29.431 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m10.991 ms - 1562[0m
+[0mGET / [32m200 [0m9.403 ms - 221[0m
+[0mGET / [32m200 [0m7.178 ms - 221[0m
+[0mGET / [32m200 [0m8.013 ms - 221[0m
+[0mGET /qmcheck [36m304 [0m60.856 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.644 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.817 ms - 51806[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m9.828 ms - 1562[0m
+begin : Mon Mar 13 2017 23:33:37 GMT+0800 (CST)
+end: check
+{"ids":["7071691","7020772","6691972","6987715","6573334","5561011"],"record":{"date":"Mon Mar 13 2017 23:33:37 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":124,"days":14,"rate":92.86,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":200,"days":20,"rate":95,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/static/img/icon_head.png","dataid":"6691972","name":"池之鱼","link":"/checkin/user/57437089/","points":782,"days":93,"rate":95.7,"check0":"未打卡","check1":"已打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":192,"days":25,"rate":96,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/febcdd18ed7d06aa40e9e31fee1bdd89.png?imageView/1/w/30/h/30/","dataid":"6573334","name":"二乘五君","link":"/checkin/user/46531294/","points":1196,"days":116,"rate":96.55,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d87b2b559ebb8eb3a64b1d9929c4c3b5.jpg?imageView/1/w/30/h/30/","dataid":"5561011","name":"Fake","link":"/checkin/user/5791456/","points":2270,"days":212,"rate":96.7,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1300.426 ms - 2049[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.230 ms - -[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m26.730 ms - 1562[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m20.556 ms - 1562[0m
+begin : Mon Mar 13 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m111.365 ms - 1175[0m
+[0mGET /stylesheets/style.css [32m200 [0m10.158 ms - 773[0m
+[0mGET /jenkins [33m404 [0m21.813 ms - 1562[0m
+[0mGET /jenkins [33m404 [0m14.255 ms - 1562[0m
+[0mGET /jenkins [33m404 [0m14.676 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m14.752 ms - 1562[0m
+[0mGET / [32m200 [0m11.621 ms - 221[0m
+[0mGET / [32m200 [0m15.244 ms - 221[0m
+[0mGET / [32m200 [0m13.080 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m48.917 ms - 1175[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.919 ms - -[0m
+[0mGET /qmcheck [32m200 [0m94.045 ms - 1175[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.206 ms - 773[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m13.440 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m13.623 ms - 1562[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m14.725 ms - 1562[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m15.286 ms - 1562[0m
+[0mGET /misc/states.js [33m404 [0m15.957 ms - 1562[0m
+[0mGET /static/js/md5.js [33m404 [0m12.693 ms - 1562[0m
+[0mGET /include/js/md5.js [33m404 [0m14.246 ms - 1562[0m
+[0mGET /include/js/common.js [33m404 [0m24.540 ms - 1562[0m
+[0mGET /include/js/ajax.js [33m404 [0m11.266 ms - 1562[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m13.056 ms - 1562[0m
+[0mGET /js/wind_editor.js [33m404 [0m10.039 ms - 1562[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m9.375 ms - 1562[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m6.867 ms - 1562[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m10.472 ms - 1562[0m
+[0mGET /template/default/style.css [33m404 [0m11.068 ms - 1562[0m
+[0mGET /static/js/reset.js [33m404 [0m12.146 ms - 1562[0m
+[0mGET /images/js/common.js [33m404 [0m10.862 ms - 1562[0m
+[0mGET /templets/style/dede.css [33m404 [0m9.981 ms - 1562[0m
+[0mGET /include/dedeajax2.js [33m404 [0m7.601 ms - 1562[0m
+[0mGET /images/default/inc.js [33m404 [0m10.588 ms - 1562[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m13.689 ms - 1562[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m12.807 ms - 1562[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m15.617 ms - 1562[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m8.254 ms - 1562[0m
+[0mGET /media/system/js/tab.js [33m404 [0m9.140 ms - 1562[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m14.363 ms - 1562[0m
+[0mGET /lang/zh/front.js [33m404 [0m17.933 ms - 1562[0m
+[0mGET /style/default/content.css [33m404 [0m11.014 ms - 1562[0m
+[0mGET /lang/zh/edit.js [33m404 [0m9.618 ms - 1562[0m
+[0mGET /rockmongo/ [33m404 [0m11.598 ms - 1562[0m
+[0mGET /server-status [33m404 [0m10.488 ms - 1562[0m
+[0mGET /ueditor.all.js [33m404 [0m11.494 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m12.845 ms - 1562[0m
+[0mGET /pleasereadthis [33m404 [0m9.252 ms - 1562[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m11.674 ms - 1562[0m
+[0mGET /warning/ [33m404 [0m11.528 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m15.032 ms - 1562[0m
+[0mGET /jenkins/ [33m404 [0m6.373 ms - 1562[0m
+[0mGET / [32m200 [0m12.055 ms - 221[0m
+[0mGET / [32m200 [0m11.721 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m89.292 ms - 1175[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.941 ms - 773[0m
+[0mGET /favicon.ico [32m200 [0m0.953 ms - 51806[0m
+[0mGET /qmcheck [32m200 [0m74.916 ms - 1175[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.557 ms - 773[0m
+[0mGET /favicon.ico [32m200 [0m16.892 ms - 51806[0m
+[0mGET / [32m200 [0m12.122 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m61.313 ms - 1175[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.580 ms - -[0m
+[0mGET /qmcheck [36m304 [0m64.284 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.547 ms - -[0m
+[0mGET /qmcheck [32m200 [0m52.793 ms - 1175[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.989 ms - 773[0m
+[0mGET /qmcheck [36m304 [0m71.377 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.621 ms - -[0m
+[0mGET /qmcheck [32m200 [0m115.483 ms - 1175[0m
+begin : Tue Mar 14 2017 23:49:07 GMT+0800 (CST)
+end: check
+{"ids":["7122838","6903766","7020772","7026226","6987715","6551011"],"record":{"date":"Tue Mar 14 2017 23:49:07 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/b97ce7162561ee12edc00d1044cd69d9?imageView/1/w/30/h/30/","dataid":"7122838","name":"行走着的小树","link":"/checkin/user/22143244/","points":74,"days":9,"rate":88.89,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/bcf723a5bfba5138c72f6e2717b78179.png?imageView/1/w/30/h/30/","dataid":"6903766","name":"波小野结衣?","link":"/checkin/user/43262137/","points":320,"days":42,"rate":95.24,"check0":"未打卡","check1":"已打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":208,"days":21,"rate":95.24,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/5bdd5c0298abce198056cf649ab86de1.png?imageView/1/w/30/h/30/","dataid":"7026226","name":"vivitu","link":"/checkin/user/62560774/","points":200,"days":21,"rate":95.24,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":200,"days":26,"rate":96.15,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/5b08d8df1bfb0d7af9abce4c88c6dcb1?imageView/1/w/30/h/30/","dataid":"6551011","name":"zxm","link":"/checkin/user/7733746/","points":980,"days":119,"rate":96.64,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1290.317 ms - 2119[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.635 ms - -[0m
+begin : Tue Mar 14 2017 23:49:19 GMT+0800 (CST)
+end: check
+{"ids":["7122838","6903766","7020772","7026226","6987715","6551011"],"record":{"date":"Tue Mar 14 2017 23:49:19 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/b97ce7162561ee12edc00d1044cd69d9?imageView/1/w/30/h/30/","dataid":"7122838","name":"行走着的小树","link":"/checkin/user/22143244/","points":74,"days":9,"rate":88.89,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/bcf723a5bfba5138c72f6e2717b78179.png?imageView/1/w/30/h/30/","dataid":"6903766","name":"波小野结衣?","link":"/checkin/user/43262137/","points":320,"days":42,"rate":95.24,"check0":"未打卡","check1":"已打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":208,"days":21,"rate":95.24,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/5bdd5c0298abce198056cf649ab86de1.png?imageView/1/w/30/h/30/","dataid":"7026226","name":"vivitu","link":"/checkin/user/62560774/","points":200,"days":21,"rate":95.24,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":200,"days":26,"rate":96.15,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/5b08d8df1bfb0d7af9abce4c88c6dcb1?imageView/1/w/30/h/30/","dataid":"6551011","name":"zxm","link":"/checkin/user/7733746/","points":980,"days":119,"rate":96.64,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1233.087 ms - 2119[0m
+begin : Tue Mar 14 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m63.946 ms - 221[0m
+[0mGET http://10.177.152.217/proxy.html [33m404 [0m22.857 ms - 1562[0m
+begin : Wed Mar 15 2017 04:16:34 GMT+0800 (CST)
+end: check
+{"ids":["7040023","7040932","6916684","7027429","7020772","7013491","7018144","6987715","7184512","7171357","7171567","7171894","7165435","7166389","7161862","7131475","7135402","7071691","7074463","7067329","6990292","6990571","6991576","6982594","6986899","6732484","6727996","6830938","4877080"],"record":{"date":"Wed Mar 15 2017 04:16:34 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/21c2cecac3a54b117c71229741442bd4?imageView/1/w/30/h/30/","dataid":"7040023","name":"Jerry-dandelion","link":"/checkin/user/7904851/","points":152,"days":20,"rate":95,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/928778c81594e23d548e77a6df53477e?imageView/1/w/30/h/30/","dataid":"7040932","name":"te藤ng","link":"/checkin/user/19395877/","points":152,"days":20,"rate":95,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ff0b44568cad1a3124b6bdf2c49b5448.png?imageView/1/w/30/h/30/","dataid":"6916684","name":"千千","link":"/checkin/user/35233588/","points":390,"days":41,"rate":95.12,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/704c330adf8d33b3cbe66d57d113ac96.png?imageView/1/w/30/h/30/","dataid":"7027429","name":"blank","link":"/checkin/user/3176095/","points":220,"days":21,"rate":95.24,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":216,"days":22,"rate":95.45,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/576944d0568f02e402629dd789cf3540?imageView/1/w/30/h/30/","dataid":"7013491","name":"cloverasan","link":"/checkin/user/20452570/","points":226,"days":23,"rate":95.65,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/1c053aac832e7beb9646a85ef407d3d2.png?imageView/1/w/30/h/30/","dataid":"7018144","name":"刘斌","link":"/checkin/user/21713197/","points":176,"days":23,"rate":95.65,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7184512","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":16,"days":3,"rate":66.67,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9a6eb3375806f5358fa8aa6105d00b5f.png?imageView/1/w/30/h/30/","dataid":"7171357","name":"咖啡少女不加糖i","link":"/checkin/user/70182064/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ca7a3df1f753e0ded80905e7b7a833d9.png?imageView/1/w/30/h/30/","dataid":"7171567","name":"Snair","link":"/checkin/user/24029059/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a6ed3fde38b2cbf71a50a281e72f98b5?imageView/1/w/30/h/30/","dataid":"7171894","name":"流水不腐~~~","link":"/checkin/user/10637110/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f2af0e9075c59453ca80514eca32870d?imageView/1/w/30/h/30/","dataid":"7165435","name":"洋郡","link":"/checkin/user/29635552/","points":32,"days":5,"rate":80,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d182c22b021cb70ab635add12689e360.png?imageView/1/w/30/h/30/","dataid":"7166389","name":"林宇超","link":"/checkin/user/58515748/","points":32,"days":5,"rate":80,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/static/img/icon_head.png","dataid":"7161862","name":"仲星宇","link":"/checkin/user/69957043/","points":40,"days":6,"rate":83.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3e5d9c0b5330a336828d2e2cd9aa5886.png?imageView/1/w/30/h/30/","dataid":"7131475","name":"源源","link":"/checkin/user/14455411/","points":74,"days":9,"rate":88.89,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/b43211ef53823b596fdebaa8db351da1?imageView/1/w/30/h/30/","dataid":"7135402","name":"天空下的等待","link":"/checkin/user/18113545/","points":102,"days":9,"rate":88.89,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/082d1a0ece9e6f735ba11cdc1cfd2d4b.png?imageView/1/w/30/h/30/","dataid":"7071691","name":"小叶子","link":"/checkin/user/21631246/","points":140,"days":16,"rate":93.75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":120,"days":16,"rate":93.75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f88cc541985fa1ec2073942c64f9cc74.png?imageView/1/w/30/h/30/","dataid":"7067329","name":"carolsweetdo","link":"/checkin/user/5546143/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9de11a92357a759d05b1eeb866b8af37.png?imageView/1/w/30/h/30/","dataid":"6990292","name":"子不语","link":"/checkin/user/54319219/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9c501f95736ed550c4281228e7b8c97c.png?imageView/1/w/30/h/30/","dataid":"6990571","name":"H","link":"/checkin/user/41309737/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/30fe68cea90d55185965441ef52fad20.jpg?imageView/1/w/30/h/30/","dataid":"6991576","name":"XMOY","link":"/checkin/user/9705745/","points":1816,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/4b657e94833285cccd33974063563555.png?imageView/1/w/30/h/30/","dataid":"6982594","name":"请叫我教皇-Tina","link":"/checkin/user/31566118/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/dcfaee2f444ef0e268dfe0ecdad8591d.png?imageView/1/w/30/h/30/","dataid":"6732484","name":"A","link":"/checkin/user/63679279/","points":656,"days":85,"rate":96.47,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a5bb8150346b5f44f066913367dadeaa.jpg?imageView/1/w/30/h/30/","dataid":"6727996","name":"萤火-我行我素","link":"/checkin/user/55902643/","points":784,"days":86,"rate":96.51,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/static/img/icon_head.png","dataid":"6830938","name":"Cdism","link":"/checkin/user/9038584/","points":664,"days":60,"rate":96.67,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/d92d35d929cc79647f782cd28df14a8e.png?imageView/1/w/30/h/30/","dataid":"4877080","name":"寺召","link":"/checkin/user/13740157/","points":3054,"days":282,"rate":96.81,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m2577.271 ms - 8525[0m
+[0mGET / [32m200 [0m20.428 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m62.040 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.858 ms - 773[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m28.617 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m75.474 ms - 1528[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.162 ms - -[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m17.324 ms - 1562[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m19.299 ms - 1562[0m
+[0mGET /misc/states.js [33m404 [0m13.876 ms - 1562[0m
+[0mGET /static/js/md5.js [33m404 [0m13.461 ms - 1562[0m
+[0mGET /include/js/md5.js [33m404 [0m13.928 ms - 1562[0m
+[0mGET /include/js/common.js [33m404 [0m9.005 ms - 1562[0m
+[0mGET /include/js/ajax.js [33m404 [0m27.240 ms - 1562[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m14.790 ms - 1562[0m
+[0mGET /js/wind_editor.js [33m404 [0m13.800 ms - 1562[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m11.939 ms - 1562[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m10.053 ms - 1562[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m14.461 ms - 1562[0m
+[0mGET /template/default/style.css [33m404 [0m12.211 ms - 1562[0m
+[0mGET /static/js/reset.js [33m404 [0m10.882 ms - 1562[0m
+[0mGET /images/js/common.js [33m404 [0m14.708 ms - 1562[0m
+[0mGET /templets/style/dede.css [33m404 [0m9.492 ms - 1562[0m
+[0mGET /include/dedeajax2.js [33m404 [0m10.076 ms - 1562[0m
+[0mGET /images/default/inc.js [33m404 [0m10.339 ms - 1562[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m8.970 ms - 1562[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m9.398 ms - 1562[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m9.344 ms - 1562[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m8.397 ms - 1562[0m
+[0mGET /media/system/js/tab.js [33m404 [0m8.603 ms - 1562[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m10.048 ms - 1562[0m
+[0mGET /lang/zh/front.js [33m404 [0m10.906 ms - 1562[0m
+[0mGET /style/default/content.css [33m404 [0m8.263 ms - 1562[0m
+[0mGET /lang/zh/edit.js [33m404 [0m9.892 ms - 1562[0m
+[0mGET /rockmongo/ [33m404 [0m10.127 ms - 1562[0m
+[0mGET /server-status [33m404 [0m7.302 ms - 1562[0m
+[0mGET /ueditor.all.js [33m404 [0m9.479 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m12.408 ms - 1562[0m
+[0mGET /pleasereadthis [33m404 [0m28.768 ms - 1562[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m8.564 ms - 1562[0m
+[0mGET /warning/ [33m404 [0m7.404 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m16.018 ms - 1562[0m
+[0mGET /jenkins/ [33m404 [0m14.531 ms - 1562[0m
+[0mGET / [32m200 [0m12.613 ms - 221[0m
+[0mGET / [32m200 [0m8.879 ms - 221[0m
+[0mGET / [32m200 [0m5.445 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m57.057 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.153 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m37.354 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.591 ms - 773[0m
+[0mGET /server-status [33m404 [0m9.323 ms - 1562[0m
+[0mGET /pleasereadthis [33m404 [0m6.986 ms - 1562[0m
+[0mGET /warning [33m404 [0m8.057 ms - 1562[0m
+[0mGET /warning [33m404 [0m7.764 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m9.395 ms - 1562[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m8.491 ms - 1562[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m10.803 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m13.911 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m10.565 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m10.356 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m12.504 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m53.222 ms - 1528[0m
+[0mGET /warning [33m404 [0m9.384 ms - 1562[0m
+[0mGET /warning [33m404 [0m13.058 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m10.292 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m63.705 ms - 1528[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.565 ms - -[0m
+[0mGET /qmcheck [32m200 [0m69.054 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.724 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m50.970 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.677 ms - 773[0m
+[0mGET / [32m200 [0m10.896 ms - 221[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.609 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m40.949 ms - 1528[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.475 ms - -[0m
+begin : Wed Mar 15 2017 23:19:35 GMT+0800 (CST)
+[0mGET / [32m200 [0m11.960 ms - 221[0m
+[0mGET /users [0m- [0m- ms - -[0m
+begin : Wed Mar 15 2017 23:19:37 GMT+0800 (CST)
+end: check
+{"ids":["7184512","7171357","7171567","7171894","6916684","7020772","7013491","6987715","6990292","6982594","6830938"],"record":{"date":"Wed Mar 15 2017 23:19:35 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7184512","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":16,"days":3,"rate":66.67,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9a6eb3375806f5358fa8aa6105d00b5f.png?imageView/1/w/30/h/30/","dataid":"7171357","name":"咖啡少女不加糖i","link":"/checkin/user/70182064/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ca7a3df1f753e0ded80905e7b7a833d9.png?imageView/1/w/30/h/30/","dataid":"7171567","name":"Snair","link":"/checkin/user/24029059/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a6ed3fde38b2cbf71a50a281e72f98b5?imageView/1/w/30/h/30/","dataid":"7171894","name":"流水不腐~~~","link":"/checkin/user/10637110/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ff0b44568cad1a3124b6bdf2c49b5448.png?imageView/1/w/30/h/30/","dataid":"6916684","name":"千千","link":"/checkin/user/35233588/","points":390,"days":41,"rate":95.12,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":216,"days":22,"rate":95.45,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/576944d0568f02e402629dd789cf3540?imageView/1/w/30/h/30/","dataid":"7013491","name":"cloverasan","link":"/checkin/user/20452570/","points":226,"days":23,"rate":95.65,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9de11a92357a759d05b1eeb866b8af37.png?imageView/1/w/30/h/30/","dataid":"6990292","name":"子不语","link":"/checkin/user/54319219/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/4b657e94833285cccd33974063563555.png?imageView/1/w/30/h/30/","dataid":"6982594","name":"请叫我教皇-Tina","link":"/checkin/user/31566118/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/static/img/icon_head.png","dataid":"6830938","name":"Cdism","link":"/checkin/user/9038584/","points":664,"days":60,"rate":96.67,"check0":"未打卡","check1":"未打卡"}]}}
+end: check
+{"ids":["7184512","7171357","7171567","7171894","6916684","7020772","7013491","6987715","6990292","6982594","6830938"],"record":{"date":"Wed Mar 15 2017 23:19:37 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7184512","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":16,"days":3,"rate":66.67,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9a6eb3375806f5358fa8aa6105d00b5f.png?imageView/1/w/30/h/30/","dataid":"7171357","name":"咖啡少女不加糖i","link":"/checkin/user/70182064/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ca7a3df1f753e0ded80905e7b7a833d9.png?imageView/1/w/30/h/30/","dataid":"7171567","name":"Snair","link":"/checkin/user/24029059/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a6ed3fde38b2cbf71a50a281e72f98b5?imageView/1/w/30/h/30/","dataid":"7171894","name":"流水不腐~~~","link":"/checkin/user/10637110/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ff0b44568cad1a3124b6bdf2c49b5448.png?imageView/1/w/30/h/30/","dataid":"6916684","name":"千千","link":"/checkin/user/35233588/","points":390,"days":41,"rate":95.12,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ea90456b7f094337ea7edf29b71a0b68.png?imageView/1/w/30/h/30/","dataid":"7020772","name":"小章鱼游啊游","link":"/checkin/user/33865186/","points":216,"days":22,"rate":95.45,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/576944d0568f02e402629dd789cf3540?imageView/1/w/30/h/30/","dataid":"7013491","name":"cloverasan","link":"/checkin/user/20452570/","points":226,"days":23,"rate":95.65,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9de11a92357a759d05b1eeb866b8af37.png?imageView/1/w/30/h/30/","dataid":"6990292","name":"子不语","link":"/checkin/user/54319219/","points":208,"days":27,"rate":96.3,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/4b657e94833285cccd33974063563555.png?imageView/1/w/30/h/30/","dataid":"6982594","name":"请叫我教皇-Tina","link":"/checkin/user/31566118/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/static/img/icon_head.png","dataid":"6830938","name":"Cdism","link":"/checkin/user/9038584/","points":664,"days":60,"rate":96.67,"check0":"未打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m2364.494 ms - 3468[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.714 ms - -[0m
+[0mGET /qmcheck [32m200 [0m33.227 ms - 1528[0m
+[0mGET /qmcheck [32m200 [0m32.921 ms - 1528[0m
+[0mGET /qmcheck [32m200 [0m66.945 ms - 1528[0m
+[0mGET /qmcheck [32m200 [0m94.272 ms - 1528[0m
+[0mGET /qmcheck [32m200 [0m91.923 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.350 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m146.634 ms - 1528[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.981 ms - 773[0m
+begin : Wed Mar 15 2017 23:52:58 GMT+0800 (CST)
+end: check
+{"ids":["7184512","7171357","7171567","7171894","6916684","7013491","6982594"],"record":{"date":"Wed Mar 15 2017 23:52:58 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/8ca1ea6b936976cdc72128a7036bd55d.png?imageView/1/w/30/h/30/","dataid":"7184512","name":"Jancis_YZ","link":"/checkin/user/6251107/","points":16,"days":3,"rate":66.67,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/9a6eb3375806f5358fa8aa6105d00b5f.png?imageView/1/w/30/h/30/","dataid":"7171357","name":"咖啡少女不加糖i","link":"/checkin/user/70182064/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ca7a3df1f753e0ded80905e7b7a833d9.png?imageView/1/w/30/h/30/","dataid":"7171567","name":"Snair","link":"/checkin/user/24029059/","points":24,"days":4,"rate":75,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a6ed3fde38b2cbf71a50a281e72f98b5?imageView/1/w/30/h/30/","dataid":"7171894","name":"流水不腐~~~","link":"/checkin/user/10637110/","points":24,"days":4,"rate":75,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/ff0b44568cad1a3124b6bdf2c49b5448.png?imageView/1/w/30/h/30/","dataid":"6916684","name":"千千","link":"/checkin/user/35233588/","points":390,"days":41,"rate":95.12,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/576944d0568f02e402629dd789cf3540?imageView/1/w/30/h/30/","dataid":"7013491","name":"cloverasan","link":"/checkin/user/20452570/","points":226,"days":23,"rate":95.65,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/4b657e94833285cccd33974063563555.png?imageView/1/w/30/h/30/","dataid":"6982594","name":"请叫我教皇-Tina","link":"/checkin/user/31566118/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1647.447 ms - 2378[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.932 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.393 ms - 51806[0m
+begin : Wed Mar 15 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET /qmcheck [32m200 [0m63.410 ms - 2372[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.765 ms - -[0m
+[0mGET /qmcheck [36m304 [0m72.289 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.837 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.113 ms - 51806[0m
+[0mGET /jenkins [33m404 [0m20.411 ms - 1562[0m
+[0mGET / [32m200 [0m13.070 ms - 221[0m
+[0mGET / [32m200 [0m9.529 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m42.302 ms - 2372[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.166 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m46.616 ms - 2372[0m
+[0mGET /qmcheck [32m200 [0m57.898 ms - 2372[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.075 ms - 773[0m
+[0mGET /qmcheck [32m200 [0m69.284 ms - 2372[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.718 ms - 773[0m
+[0mGET /jenkins [33m404 [0m15.000 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m12.760 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m40.566 ms - 2372[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.648 ms - -[0m
+[0mGET /qmcheck [32m200 [0m52.810 ms - 2372[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.774 ms - 773[0m
+[0mGET /favicon.ico [32m200 [0m0.618 ms - 51806[0m
+[0mGET /qmcheck [32m200 [0m52.978 ms - 2372[0m
+[0mGET /qmcheck [32m200 [0m69.508 ms - 2372[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.267 ms - 773[0m
+[0mGET /wp-includes/js/comment-reply.min.js [33m404 [0m20.891 ms - 1562[0m
+[0mGET /skins/vector/csshover.htc [33m404 [0m11.146 ms - 1562[0m
+[0mGET /misc/states.js [33m404 [0m10.809 ms - 1562[0m
+[0mGET /static/js/md5.js [33m404 [0m10.943 ms - 1562[0m
+[0mGET /include/js/md5.js [33m404 [0m12.044 ms - 1562[0m
+[0mGET /include/js/common.js [33m404 [0m8.925 ms - 1562[0m
+[0mGET /include/js/ajax.js [33m404 [0m9.642 ms - 1562[0m
+[0mGET /res/js/dev/pages/common/global.js [33m404 [0m13.149 ms - 1562[0m
+[0mGET /js/wind_editor.js [33m404 [0m11.638 ms - 1562[0m
+[0mGET /styles/prosilver/template/forum_fn.js [33m404 [0m14.659 ms - 1562[0m
+[0mGET /styles/prosilver/template/styleswitcher.js [33m404 [0m10.028 ms - 1562[0m
+[0mGET /editor/ubb/uploader.js [33m404 [0m11.138 ms - 1562[0m
+[0mGET /template/default/style.css [33m404 [0m16.834 ms - 1562[0m
+[0mGET /static/js/reset.js [33m404 [0m13.101 ms - 1562[0m
+[0mGET /images/js/common.js [33m404 [0m11.301 ms - 1562[0m
+[0mGET /templets/style/dede.css [33m404 [0m8.834 ms - 1562[0m
+[0mGET /include/dedeajax2.js [33m404 [0m9.594 ms - 1562[0m
+[0mGET /images/default/inc.js [33m404 [0m19.317 ms - 1562[0m
+[0mGET /js/lang/core/zh-cn.js [33m404 [0m10.555 ms - 1562[0m
+[0mGET /js/lang/cms/zh-cn.js [33m404 [0m9.959 ms - 1562[0m
+[0mGET /d/js/acmsd/ecms_dialog.js [33m404 [0m15.469 ms - 1562[0m
+[0mGET /skin/default/js/tabs.js [33m404 [0m14.448 ms - 1562[0m
+[0mGET /media/system/js/tab.js [33m404 [0m21.147 ms - 1562[0m
+[0mGET /media/system/css/mootree.css [33m404 [0m9.264 ms - 1562[0m
+[0mGET /lang/zh/front.js [33m404 [0m10.308 ms - 1562[0m
+[0mGET /style/default/content.css [33m404 [0m13.978 ms - 1562[0m
+[0mGET /lang/zh/edit.js [33m404 [0m17.289 ms - 1562[0m
+[0mGET /rockmongo/ [33m404 [0m8.838 ms - 1562[0m
+[0mGET /server-status [33m404 [0m13.329 ms - 1562[0m
+[0mGET /ueditor.all.js [33m404 [0m13.932 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m11.805 ms - 1562[0m
+[0mGET /pleasereadthis [33m404 [0m12.738 ms - 1562[0m
+[0mGET /wikilib.d/PmWiki.ChangeLog [33m404 [0m14.991 ms - 1562[0m
+[0mGET /warning/ [33m404 [0m7.958 ms - 1562[0m
+[0mGET /4e5e5d7364f443e28fbf0d3ae744a59a [33m404 [0m12.466 ms - 1562[0m
+[0mGET /jenkins/ [33m404 [0m10.865 ms - 1562[0m
+[0mGET / [32m200 [0m11.386 ms - 221[0m
+[0mGET / [32m200 [0m9.943 ms - 221[0m
+[0mGET /qmcheck [32m200 [0m54.939 ms - 2372[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.654 ms - -[0m
+begin : Thu Mar 16 2017 23:46:40 GMT+0800 (CST)
+end: check
+{"ids":["7200754","7165435","7074463","6987715","6986899"],"record":{"date":"Thu Mar 16 2017 23:46:40 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/5bcac3d7442dba2a9690607ee770a49f?imageView/1/w/30/h/30/","dataid":"7200754","name":"。","link":"/checkin/user/12976051/","points":0,"days":1,"rate":0,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f2af0e9075c59453ca80514eca32870d?imageView/1/w/30/h/30/","dataid":"7165435","name":"洋郡","link":"/checkin/user/29635552/","points":40,"days":6,"rate":83.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":224,"days":29,"rate":96.55,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m1735.482 ms - 1792[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.849 ms - -[0m
+begin : Thu Mar 16 2017 23:46:51 GMT+0800 (CST)
+begin : Thu Mar 16 2017 23:46:51 GMT+0800 (CST)
+begin : Thu Mar 16 2017 23:46:51 GMT+0800 (CST)
+begin : Thu Mar 16 2017 23:46:51 GMT+0800 (CST)
+end: check
+end: check
+end: check
+end: check
+{"ids":["7200754","7165435","7074463","6987715","6986899"],"record":{"date":"Thu Mar 16 2017 23:46:51 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/5bcac3d7442dba2a9690607ee770a49f?imageView/1/w/30/h/30/","dataid":"7200754","name":"。","link":"/checkin/user/12976051/","points":0,"days":1,"rate":0,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f2af0e9075c59453ca80514eca32870d?imageView/1/w/30/h/30/","dataid":"7165435","name":"洋郡","link":"/checkin/user/29635552/","points":40,"days":6,"rate":83.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":224,"days":29,"rate":96.55,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m4674.135 ms - 1792[0m
+{"ids":[],"record":{"date":"Thu Mar 16 2017 23:46:51 GMT+0800 (CST)","dispel":[]}}
+[0mGET /users [32m200 [0m4711.019 ms - 393[0m
+{"ids":["7200754","7165435","7074463","6987715","6986899"],"record":{"date":"Thu Mar 16 2017 23:46:51 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/5bcac3d7442dba2a9690607ee770a49f?imageView/1/w/30/h/30/","dataid":"7200754","name":"。","link":"/checkin/user/12976051/","points":0,"days":1,"rate":0,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f2af0e9075c59453ca80514eca32870d?imageView/1/w/30/h/30/","dataid":"7165435","name":"洋郡","link":"/checkin/user/29635552/","points":40,"days":6,"rate":83.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":224,"days":29,"rate":96.55,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m4746.967 ms - 1792[0m
+{"ids":["7200754","7165435","7074463","6987715","6986899"],"record":{"date":"Thu Mar 16 2017 23:46:51 GMT+0800 (CST)","dispel":[{"avatar":"https://static.baydn.com/avatar/media_store/5bcac3d7442dba2a9690607ee770a49f?imageView/1/w/30/h/30/","dataid":"7200754","name":"。","link":"/checkin/user/12976051/","points":0,"days":1,"rate":0,"check0":"未打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/f2af0e9075c59453ca80514eca32870d?imageView/1/w/30/h/30/","dataid":"7165435","name":"洋郡","link":"/checkin/user/29635552/","points":40,"days":6,"rate":83.33,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/3276121b084f1f001eb48cb8ac152fe4.png?imageView/1/w/30/h/30/","dataid":"7074463","name":"wyp","link":"/checkin/user/34448932/","points":128,"days":17,"rate":94.12,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/a30f5710f7165e3d626c058a9f22c302?imageView/1/w/30/h/30/","dataid":"6987715","name":"血斑竹17k","link":"/checkin/user/8792668/","points":216,"days":28,"rate":96.43,"check0":"已打卡","check1":"未打卡"},{"avatar":"https://static.baydn.com/avatar/media_store/22b2c3c9977a40b800a9e0dde2d97ab9.png?imageView/1/w/30/h/30/","dataid":"6986899","name":"筱___企","link":"/checkin/user/41678695/","points":224,"days":29,"rate":96.55,"check0":"已打卡","check1":"未打卡"}]}}
+[0mGET /users [32m200 [0m5086.484 ms - 1792[0m
+begin : Thu Mar 16 2017 23:55:00 GMT+0800 (CST)
+end: check
+[0mGET / [32m200 [0m25.357 ms - 221[0m
+[0mGET /pleasereadthis [33m404 [0m19.157 ms - 1562[0m
+[0mGET /rockmongo [33m404 [0m14.400 ms - 1562[0m
+[0mGET /please_read/_search [33m404 [0m10.150 ms - 1562[0m
+[0mGET /jenkins [33m404 [0m10.221 ms - 1562[0m
+[0mGET / [32m200 [0m8.291 ms - 221[0m
+[0mGET /pleasereadthis [33m404 [0m8.842 ms - 1562[0m
+[0mGET /qmcheck [32m200 [0m53.017 ms - 1216[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.716 ms - 773[0m
+[0mGET / [32m200 [0m12.411 ms - 221[0m
