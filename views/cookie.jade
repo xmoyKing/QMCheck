@@ -2,6 +2,7 @@ extends layout
 
 block content
   h1= title
+  h2 上次修改时间: #{mtime}
   form(action='cookie/upload',method='post')
     input(type='text',name='cook',style='font-size: 2em; width:100%;')
     input(type='submit',style='font-size: 2em; margin-top: 1em;')

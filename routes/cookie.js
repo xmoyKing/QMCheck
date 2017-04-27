@@ -6,8 +6,11 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
     //var json = JSON.parse(fs.readFileSync(path.join(__dirname, '../record.json'), 'utf-8'));
-    res.render('cookie', {
-        title: '更新cookie'
+    fs.stat(path.join(__dirname, '../record.json'),function(err, stats){
+        res.render('cookie', {
+            title: '更新cookie',
+            mtime: stats.mtime
+        });
     });
 });
 
