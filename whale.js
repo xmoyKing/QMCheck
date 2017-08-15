@@ -38,24 +38,27 @@ function check(recordFile, cbfn) {
                     let user = $(post).find('.userinfo > .span3 > a');
                     let content = $(post).find('.post-content-todo').text();
 
-                    if (user.text() != 'KING' && teamSrc == '/team/detail/8854/' && content.search('2017青梅鲸鱼') != -1)
-                        ids.push('[' + user.text() + '](https://www.shanbay.com' + user.attr('href') + ')');
+                    if(user.text().match('五月')){
+                        console.log(flag, '五月のMay', content)
+                    }
+                    // if (user.text() != 'KING' && teamSrc == '/team/detail/8854/' && content.search('2017青梅鲸鱼') != -1)
+                    //     ids.push('[' + user.text() + '](https://www.shanbay.com' + user.attr('href') + ')');
                 });
 
                 if (flag === 17) {
-                    fs.writeFile(path.join(__dirname, recordFile + '-log.txt'), ids.length + '\n' + JSON.stringify(ids.unique2()) + '\n', { flag: 'a' }, function(err2) {
-                        if (err2) console.log('fs writeFile err: ', err2);
-                    });
+                    // fs.writeFile(path.join(__dirname, recordFile + '-log.txt'), ids.length + '\n' + JSON.stringify(ids.unique2()) + '\n', { flag: 'a' }, function(err2) {
+                    //     if (err2) console.log('fs writeFile err: ', err2);
+                    // });
                     console.log('end: whale');
 
 
-                    ids.forEach(function(e) {
-                        str += ' 1. '+ e + '\n';
-                    }, this);
+                    // ids.forEach(function(e) {
+                    //     str += ' 1. '+ e + '\n';
+                    // }, this);
 
-                    fs.writeFile(path.join(__dirname, 'whale2-list.txt'), '\n' + str + '\n', { flag: 'a' }, function(err2) {
-                        if (err2) console.log('fs writeFile err: ', err2);
-                    });
+                    // fs.writeFile(path.join(__dirname, 'whale2-list.txt'), '\n' + str + '\n', { flag: 'a' }, function(err2) {
+                    //     if (err2) console.log('fs writeFile err: ', err2);
+                    // });
                 }
             });
     }
