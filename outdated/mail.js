@@ -1,13 +1,15 @@
-var nodemailer = require('nodemailer');
+let  nodemailer = require('nodemailer');
+let fs = require('fs');
+let path = require('path');
+////////////////////////////////////////////////////////////////////////////////
 
-var transporter = nodemailer.createTransport({
+let config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8'));
+
+let transporter = nodemailer.createTransport({
     service: 'qq',
-    auth: {
-        user: '443857611@qq.com',
-        pass: 'brvyjmeuanfebjcj'//授权码,通过QQ获取  
-    }
+    auth: config.mail  //QQ邮箱及其授权码,通过QQ获取  
 });
-var mailOptions = {
+let mailOptions = {
     from: '443857611@qq.com', // 发送者  
     to: '822547462@qq.com', // 接受者,可以同时发送多个,以逗号隔开  
     subject: 'Cookie过期提醒', // 标题  

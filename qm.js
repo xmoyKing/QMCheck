@@ -6,9 +6,10 @@ let events = require("events");
 // let mongoose = require('mongoose');
 // let Record = require('./db');
 ////////////////////////////////////////////////////////////////////////////////
+let config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8'));
 
 function dispel(ids, cookie) {  //踢除
-    cookie = cookie || fs.readFileSync(path.join(__dirname, 'cookie.txt'), 'utf-8');
+    cookie = cookie || config.cookie;
     let data = {
         ids: ids.join(),
         action: 'dispel'
@@ -36,7 +37,7 @@ function dispel(ids, cookie) {  //踢除
 
 function check(recordFile, cbfn) {
     let date = Date();
-    let cookie = fs.readFileSync(path.join(__dirname, 'cookie.txt'), 'utf-8');
+    let cookie =  config.cookie;
     let record = { 'date': date, 'dispel': [] };
     let ids = [];
 
@@ -119,7 +120,7 @@ function check(recordFile, cbfn) {
             if( res.req.path.indexOf('/account/login') > 0 ){
                 console.log('Need Login');
                 login();
-                cookie = fs.readFileSync(path.join(__dirname, 'cookie.txt'), 'utf-8');
+                cookie = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8')).cookie;
                 getTeamManage(page);
             }else{
                 getIds(res);
@@ -130,12 +131,10 @@ function check(recordFile, cbfn) {
 }
 
 function login(){
+    let user = config.user;
     superagent.put('https://www.shanbay.com/api/v1/account/login/web/')
         .set('Referer', 'https://www.shanbay.com/web/account/login')
-        .send({
-            'username': 'username',
-            'password': 'password',
-        })
+        .send(user)
         .end((err, res)=>{
             setCookie(res); // 设置cookie并发送事件
         })
@@ -163,7 +162,9 @@ function login(){
             }
         });
 
-        fs.writeFileSync(path.join(__dirname, 'cookie.txt'), cookie);
+        config.cookie = cookie;
+
+        fs.writeFileSync(path.join(__dirname, 'config.json'), JSON.stringify(config) );
     }
 }
 

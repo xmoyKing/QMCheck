@@ -1,22 +1,21 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+let express = require('express');
+let path = require('path');
+let favicon = require('serve-favicon');
+let logger = require('morgan');
+let cookieParser = require('cookie-parser');
+let bodyParser = require('body-parser');
+let fs = require('fs');
 
-var fs = require('fs');
-
-var index = require('./routes/index');
-var users = require('./routes/users');
-var cook = require('./routes/cookie');
-// QMCheck page
-var qmcheck = require('./routes/qmcheck');
-var qm = require('./qm');
-var schedule = require('node-schedule');
+// QMCheck Routes tmpl page
+let index = require('./routes/index');
+let users = require('./routes/users');
+// let cook = require('./routes/cookie'); //取消手动上传cookie
+let qmcheck = require('./routes/qmcheck');
+let qm = require('./qm');
+let schedule = require('node-schedule');
 ////////////////////////////////////////////////////////////////////////////////
 //定时器
-var j = schedule.scheduleJob('55 23 * * *', function() {
+let j = schedule.scheduleJob('55 23 * * *', function() {
     qm.check('record', function(json, cookie) {
         let crtDate = new Date();
         if (crtDate.getHours() === 23 && crtDate.getMinutes() >= 55)
@@ -27,7 +26,7 @@ var j = schedule.scheduleJob('55 23 * * *', function() {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-var app = express();
+let app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -40,15 +39,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Use Routes
 app.use('/', index);
 app.use('/users', users);
-
-// Shanbay QMCheck & result page
 app.use('/qmcheck', qmcheck);
-app.use('/cookie', cook);
+// app.use('/cookie', cook);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-    var err = new Error('Not Found');
+    let err = new Error('Not Found');
     err.status = 404;
     next(err);
 });
