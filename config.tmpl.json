@@ -1,0 +1,11 @@
+{
+    "cookie": "",
+    "user": {
+        "username": "username",
+        "password": "password"
+    },
+    "mail": {
+        "user": "qq mail account",
+        "pass": "qq mail auth code"
+    }
+}
