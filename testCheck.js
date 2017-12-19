@@ -1,7 +1,0 @@
-let qm = require('./qm');
-////////////////////////////////////////////////////////////////////////////////
-
-qm.check('testCheck',  rst=>console.log('test dispel: \n', rst) );
-
-
-

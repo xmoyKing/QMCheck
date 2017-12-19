@@ -1,6 +1,5 @@
 let superagent = require('superagent');
 let cheerio = require('cheerio');
-// let async = require('async');
 let fs = require('fs');
 let path = require('path');
 let events = require("events");
@@ -35,9 +34,9 @@ function dispel(ids, cookie) {  //踢除
     });
 }
 
-function check(recordFile, cookieFile, cbfn) {
+function check(recordFile, cbfn) {
     let date = Date();
-    let cookie = fs.readFileSync(path.join(__dirname, 'cookie.text'), 'utf-8');
+    let cookie = fs.readFileSync(path.join(__dirname, 'cookie.txt'), 'utf-8');
     let record = { 'date': date, 'dispel': [] };
     let ids = [];
 
@@ -134,8 +133,8 @@ function login(){
     superagent.put('https://www.shanbay.com/api/v1/account/login/web/')
         .set('Referer', 'https://www.shanbay.com/web/account/login')
         .send({
-            'username': 'xmoyking',
-            'password': 'xmoy8427',
+            'username': 'username',
+            'password': 'password',
         })
         .end((err, res)=>{
             setCookie(res); // 设置cookie并发送事件
@@ -164,7 +163,7 @@ function login(){
             }
         });
 
-        fs.writeFileSync(path.join(__dirname, 'cookie.text'), cookie);
+        fs.writeFileSync(path.join(__dirname, 'cookie.txt'), cookie);
     }
 }
 
