@@ -1,0 +1,2 @@
+
+{"msg": "Authentication credentials were not provided."}
