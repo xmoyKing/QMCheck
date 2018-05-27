@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 
     async function runCmd(cmd) {
         const {error, stdout, stderr} = await exec(cmd);
-        console.log(error, stdout, stderr)
+        console.log('\n', error, stdout, stderr)
 
         if(error){
             totalMsg += `${error}`;
@@ -29,7 +29,7 @@ router.get('/', function(req, res, next) {
 
     runCmd(cmds[0]) && runCmd(cmds[1]) && runCmd(cmds[2]);
 
-    console.log(totalMsg);
+    console.log(`\n totalMsg: ${totalMsg} \n`);
 
     res.render('index', {
         title: totalMsg
