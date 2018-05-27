@@ -24,17 +24,17 @@ router.get('/', function(req, res, next) {
             return true;
         }
     }
+    function renderMsg() {
+        console.log(`\n totalMsg: ${totalMsg} \n`);
+    
+        res.render('index', {
+            title: totalMsg
+        });
+    }
 
     const cmds = ['git add .', 'git commit -m "upload"', 'git status'];
 
-    runCmd(cmds[0]) && runCmd(cmds[1]) && runCmd(cmds[2]);
-
-    console.log(`\n totalMsg: ${totalMsg} \n`);
-
-    res.render('index', {
-        title: totalMsg
-    });
-
+    runCmd(cmds[0]) && runCmd(cmds[1]) && runCmd(cmds[2]) && renderMsg();
 });
 
 module.exports = router;
