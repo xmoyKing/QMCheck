@@ -1,21 +1,36 @@
 var express = require('express');
 var fs = require('fs');
 var path = require('path');
-var cp = require('child_process');
 var router = express.Router();
+
+const util = require('util');
+const cp = require('child_process');
+const exec = util.promisify(cp.exec);
+
 
 /* GET upload page. */
 router.get('/', function(req, res, next) {
-    cp.execFile('../upload.sh', [], (err, stdout, stderr) => {
-        if(err){ console.error(err); }
-      
-        // console.log(`stdout: ${stdout}`);
-        // console.log(`stderr: ${stderr}`);
 
-        res.render('index', {
-            title: err || `stdout: ${stdout}`
-        });
+    async function runCmd(cmd) {
+        const {error, stdout, stderr} = await exec(cmd);
+        if(error){
+            totalMsg += `${error}`;
+            return false;
+        }else{
+            totalMsg += `${stdout}`;
+            return true;
+        }
+    }
+
+    let totalMsg = '';
+    const cmds = ['git add .', 'git commit -m "upload"', 'git status'];
+
+    runCmd(cmds[0]) && runCmd(cmds[1]) && runCmd(cmds[2]);
+
+    res.render('index', {
+        title: totalMsg
     });
+
 });
 
 module.exports = router;
