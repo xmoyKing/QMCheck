@@ -7,22 +7,22 @@ const util = require('util');
 const cp = require('child_process');
 const exec = util.promisify(cp.exec);
 
+let dir = __dirname;
 /* GET upload page. */
 router.get('/', function(req, res, next) {
     let totalMsg = '';
     const cmds = ['git status', 'git add .', 'git commit -m "upload"', 'git push'];
 
     function renderMsg() {
-        // console.log(`\n totalMsg: ${totalMsg} \n`);
         res.render('stdout', {
             message: totalMsg
         });
     }
     async function runCmd(cmds = ['git status'], idx = 0) {
-        totalMsg += `\n cmd: ${cmds[idx]} \n`;
-
-        const {error, stdout, stderr} = await exec(cmds[idx]);
-        console.log(`\n cmd: ${cmds[idx]} \n error: \n ${error} \n stdout: \n ${stdout} \n stderr: \n ${stderr}`)
+        totalMsg += `cmd: ${cmds[idx]} \n`;
+        // console.log(dir);
+        const {error, stdout, stderr} = await exec(cmds[idx], {cwd: dir}); // linux下需要带cwd选项，否则会报错：不是一个git repo
+        // console.log(`\n cmd: ${cmds[idx]} \n error: \n ${error} \n stdout: \n ${stdout} \n stderr: \n ${stderr}`)
 
         if(error){
             totalMsg += `${error}`;
@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
         }else{
             totalMsg += `stdout: \n ${stdout} \n stderr: \n ${stderr} \n`;
             
-            if((idx == 0 && stdout.indexOf('nothing to commit, working tree clean') !== -1 || (idx == cmds.length - 1))){
+            if((cmds[idx] == 'git status' && stdout.indexOf('nothing to commit, working tree clean') !== -1 || (idx == cmds.length - 1))){
                 // 执行最后一个命令后渲染页面
                 renderMsg();
             }else{ // 否则继续继续后续任务
