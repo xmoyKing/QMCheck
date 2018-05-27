@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
             totalMsg += `${error}`;
             renderMsg(); // 当有错误时直接渲染，不执行后面的命令
         }else{
-            totalMsg += `${stdout}`;
+            totalMsg += `stdout: \n ${stdout} \n stderr: \n ${stderr} \n`;
             
             if((idx == 0 && stdout.indexOf('nothing to commit, working tree clean') !== -1 || (idx == cmds.length - 1))){
                 // 执行最后一个命令后渲染页面
