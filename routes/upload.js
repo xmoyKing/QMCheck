@@ -10,7 +10,7 @@ const exec = util.promisify(cp.exec);
 /* GET upload page. */
 router.get('/', function(req, res, next) {
     let totalMsg = '';
-    const cmds = ['git pull', 'git add .', 'git commit -m "upload"', 'git push'];
+    const cmds = ['git add .', 'git commit -m "upload"', 'git push'];
 
     function renderMsg() {
         // console.log(`\n totalMsg: ${totalMsg} \n`);
