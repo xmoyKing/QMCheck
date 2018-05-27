@@ -12,17 +12,21 @@ const exec = util.promisify(cp.exec);
 router.get('/', function(req, res, next) {
     let totalMsg = '';
 
-    async function runCmd(cmd) {
+    async function runCmd(cmd, cb) {
+        let rst = false;
         const {error, stdout, stderr} = await exec(cmd);
         console.log('\n', error, stdout, stderr)
 
         if(error){
             totalMsg += `${error}`;
-            return false;
         }else{
             totalMsg += `${stdout}`;
-            return true;
+            rst = true;
         }
+
+        cb && cb();
+
+        return rst;
     }
     function renderMsg() {
         console.log(`\n totalMsg: ${totalMsg} \n`);
@@ -34,7 +38,7 @@ router.get('/', function(req, res, next) {
 
     const cmds = ['git add .', 'git commit -m "upload"', 'git status'];
 
-    runCmd(cmds[0]) && runCmd(cmds[1]) && runCmd(cmds[2]) && renderMsg();
+    runCmd(cmds[0]) && runCmd(cmds[1]) && runCmd(cmds[2], renderMsg);
 });
 
 module.exports = router;
