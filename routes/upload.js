@@ -19,6 +19,8 @@ router.get('/', function(req, res, next) {
         });
     }
     async function runCmd(cmds = ['git status'], idx = 0) {
+        totalMsg += `\n cmd: ${cmds[idx]} \n`;
+        
         const {error, stdout, stderr} = await exec(cmds[idx]);
         console.log(`\n cmd: ${cmds[idx]} \n error: \n ${error} \n stdout: \n ${stdout} \n stderr: \n ${stderr}`)
 
