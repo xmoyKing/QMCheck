@@ -10,7 +10,7 @@ const exec = util.promisify(cp.exec);
 /* GET upload page. */
 router.get('/', function(req, res, next) {
     let totalMsg = '';
-    const cmds = ['git add .', 'git commit -m "upload"', 'git push'];
+    const cmds = ['git status'] //, 'git add .', 'git commit -m "upload"', 'git push'];
 
     function renderMsg() {
         // console.log(`\n totalMsg: ${totalMsg} \n`);
@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
     }
     async function runCmd(cmds = ['git status'], idx = 0) {
         const {error, stdout, stderr} = await exec(cmds[idx]);
-        // console.log('\n cmd: \n', error, stdout, stderr)
+        console.log('\n cmd: \n', error, stdout, stderr)
 
         if(error){
             totalMsg += `${error}`;
