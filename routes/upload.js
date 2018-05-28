@@ -39,6 +39,7 @@ router.get('/', function(req, res, next) {
             }
         }catch(e){
             totalMsg += `Catch Exception: ${e}`;
+		console.log(e, error, stderr);
             renderMsg();
         }
     }
