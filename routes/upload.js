@@ -7,7 +7,7 @@ const util = require('util');
 const cp = require('child_process');
 const exec = util.promisify(cp.exec);
 
-let dir = __dirname;
+let dir = __dirname + '/../';
 /* GET upload page. */
 router.get('/', function(req, res, next) {
     let totalMsg = '';
@@ -39,7 +39,7 @@ router.get('/', function(req, res, next) {
             }
         }catch(e){
             totalMsg += `Catch Exception: ${e}`;
-		console.log(e, error, stderr);
+	    console.log(e);
             renderMsg();
         }
     }
