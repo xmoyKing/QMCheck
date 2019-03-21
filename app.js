@@ -15,13 +15,13 @@ let upload = require('./routes/upload');
 let qm = require('./qm');
 let schedule = require('node-schedule');
 ////////////////////////////////////////////////////////////////////////////////
+let config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8'));
+let crontable = config.crotable;
 //定时器
-let j = schedule.scheduleJob('55 23 * * *', function() {
+let j = schedule.scheduleJob(crontable, function() {
+    console.log('start to exec schedule job');
     qm.check('record', function(json, cookie) {
-        let crtDate = new Date();
-        if (crtDate.getHours() === 23 && crtDate.getMinutes() >= 55)
-            qm.disple(json.ids, cookie);
-        else console.log('时间不在23:55~59之内 : ' + crtDate);
+        qm.disple(json.ids, cookie);
     });
 });
 

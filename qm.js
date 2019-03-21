@@ -27,8 +27,9 @@ function dispel(ids, cookie) {  //踢除
     .send(data)
     .end(function(err2, res2) {
         let oRes = JSON.parse(res2.text);
+        console.log(oRes);
         if (oRes.msg !== 'SUCCESS') {
-            fs.writeFile(path.join(__dirname, 'log.txt'), '\n' + res2.text + '\n', { flag: 'a' }, function(err2) {
+            fs.writeFile(path.join(__dirname, 'log.txt'), Date() + '\n' + res2.text + '\n', { flag: 'a' }, function(err2) {
                 if (err2) console.log('fs writeFile err: ', err2);
             });
         }
