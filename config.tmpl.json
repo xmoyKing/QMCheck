@@ -7,5 +7,6 @@
     "mail": {
         "user": "qq mail account",
         "pass": "qq mail auth code"
-    }
+    },
+    "crotable": "55 23 * * *"
 }
