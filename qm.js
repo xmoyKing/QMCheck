@@ -116,7 +116,14 @@ function check(recordFile, cbfn) {
         .set('X-Requested-With', 'XMLHttpRequest')
         .set('Cookie', cookie)
         .end(function(err, res) {
-            if (err || res.status !== 200) { console.log(err, res); return false; }
+            if (err || res.status !== 200) { 
+                console.log(err, res);
+                let errlog = `err-log-${date.getTime()}.js`;
+                record.dispel.push({ days: errlog }); // 将错误日志反馈到页面上，写在组龄单元格内
+                wtFileAndDispel(); // 直接执行回掉函数，然后将错误日志写入到文件内
+                fs.writeFileSync(path.join(__dirname, errlog), 'ERR: \n' + JSON.stringify(err) + '\n' + 'RES: \n' + JSON.stringify(res) );
+                return false; 
+            }
 
             if( res.req.path.indexOf('/account/login') > 0 ){
                 console.log('Need Login');
