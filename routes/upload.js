@@ -11,7 +11,7 @@ let dir = __dirname + '/../';
 /* GET upload page. */
 router.get('/', function(req, res, next) {
     let totalMsg = '';
-    const cmds = ['git status', 'git add .', 'git commit -m "upload"', 'git push origin master'];
+    const cmds = ['git status', 'git add -A .', 'git commit -m "upload"', 'git push origin master'];
 
     function renderMsg() {
         res.render('stdout', {
@@ -28,7 +28,12 @@ router.get('/', function(req, res, next) {
                 totalMsg += `${error}`;
                 renderMsg(); // 当有错误时直接渲染，不执行后面的命令
             }else{
-                totalMsg += `stdout: \n ${stdout} \n stderr: \n ${stderr} \n`;
+                if(idx == 3){
+                    let pushHash = `${stderr}`.split('github.com/xmoyKing/QMCheck.git')[1];
+                    totalMsg += `stdout: \n ${stdout} \n stderr: \n ${pushHash} \n`;
+                }else {
+                    totalMsg += `stdout: \n ${stdout} \n stderr: \n ${stderr} \n`;
+                }
                 
                 if((cmds[idx] == 'git status' && stdout.indexOf('nothing to commit, working tree clean') !== -1 || (idx == cmds.length - 1))){
                     // 执行最后一个命令后渲染页面
