@@ -28,6 +28,7 @@ router.get('/', function(req, res, next) {
                 totalMsg += `${error}`;
                 renderMsg(); // 当有错误时直接渲染，不执行后面的命令
             }else{
+                // 当git push时，不显示push地址，仅显示最后的hash码即可
                 if(idx == 3){
                     let pushHash = `${stderr}`.split('github.com/xmoyKing/QMCheck.git')[1];
                     totalMsg += `stdout: \n ${stdout} \n stderr: \n ${pushHash} \n`;
