@@ -120,7 +120,16 @@ function check(recordFile, cbfn) {
 
             if( res.req.path.indexOf('/account/login') > 0 ){
                 console.log('Need Login');
-                login();
+                // console.log(JSON.stringify(res));
+                // console.log(JSON.stringify(res.header));
+                
+                // 获取登录页面csrftoken
+                let csrfs = res.header['set-cookie'].map(el => el.startsWith('csrftoken=')&&el);
+                let lastCsrf = csrfs[csrfs.length - 1]; // 结果形如："csrftoken=jyDh61ZqIPOormwSSGseueR80E3p8XOS; Max-Age=31536000; Domain=.shanbay.com; Path=/; Expires=Tue, 22 Sep 2020 13:48:15 GMT"
+                let csrftoken = lastCsrf.split(';')[0].replace('csrftoken=','')
+
+                // 同步登录，
+                login(csrftoken);
                 cookie = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8')).cookie;
                 getTeamManage(page);
             }else{
@@ -131,10 +140,15 @@ function check(recordFile, cbfn) {
     }
 }
 
-function login(){
+function login(csrftoken){
     let user = config.user;
-    superagent.put('https://www.shanbay.com/api/v1/account/login/web/')
-        .set('Referer', 'https://www.shanbay.com/web/account/login')
+    superagent.post('https://apiv3.shanbay.com/bayuser/login')
+        .set('Referer', 'https://web.shanbay.com/web/account/login')
+        .set('Origin', 'https://web.shanbay.com')
+        .set('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36')
+        .set('Sec-Fetch-Mode', 'cors')
+        .set('Content-Type', 'application/json')
+        .set('X-CSRFToken', csrftoken)
         .send(user)
         .end((err, res)=>{
             setCookie(res); // 设置cookie并发送事件

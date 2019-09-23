@@ -1,8 +1,9 @@
 {
     "cookie": "",
     "user": {
-        "username": "username",
-        "password": "password"
+        "account": "username",
+        "password": "password",
+        "code_2fa": ""
     },
     "mail": {
         "user": "qq mail account",
