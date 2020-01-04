@@ -9,7 +9,7 @@ let fs = require('fs');
 // QMCheck Routes tmpl page
 let index = require('./routes/index');
 let users = require('./routes/users');
-// let cook = require('./routes/cookie'); //取消手动上传cookie
+let cook = require('./routes/cookie');
 let qmcheck = require('./routes/qmcheck');
 let upload = require('./routes/upload');
 let qm = require('./qm');
@@ -45,7 +45,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/qmcheck', qmcheck);
 app.use('/upload', upload);
-// app.use('/cookie', cook);
+app.use('/cookie', cook);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     let err = new Error('Not Found');

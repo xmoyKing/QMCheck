@@ -1,5 +1,5 @@
 let superagent = require('superagent');
-let cheerio = require('cheerio');
+let cheerio = require('cheerio'); // nodejs中的jquery
 let fs = require('fs');
 let path = require('path');
 let events = require("events");
@@ -48,7 +48,8 @@ function check(recordFile, cbfn) {
 
     // 遍历管理页面
     function getIds(res) {
-        let $ = cheerio.load(res.text);
+        let $ = cheerio.load(res.text); // res是请求对的响应，text是html文本
+
         for (let j = 0; j < 15; ++j) {
             let member = $($(res.text).find('#members .member')[j]);
             let days = Number(member.find('.days').text());
@@ -163,6 +164,8 @@ function login(csrftoken){
     
 
     function setCookie(res) {
+        console.log(res);
+
         let cookie = '';
         res.header["set-cookie"].forEach((e, i)=>{
             let csrftoken = e.indexOf('csrftoken=');
