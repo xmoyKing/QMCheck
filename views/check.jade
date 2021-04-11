@@ -5,6 +5,7 @@ block content
   - var date = new Date(record.date);
   - var arr = record.dispel;
   p 查卡时间：#{date.toLocaleString()}
+  p Message: #{msg}
   table
     tr
       th 昵称
@@ -17,7 +18,7 @@ block content
       tr
         td
           img(src='#{val.avatar}')
-          a(href='https://www.shanbay.com/#{val.link}') #{val.name}
+          a(href='#{val.link}') #{val.name}
         td= val.points
         td= val.days
         td= val.rate
